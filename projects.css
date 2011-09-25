@@ -1,0 +1,43 @@
+#projects ul
+{
+	padding: 0;
+}
+
+#projects ul li
+{
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+#projects ul li div
+{
+	-moz-border-radius: 1em;
+	-webkit-border-radius: 1em;
+	border: 2px solid black;
+	padding: 10px;
+}
+
+#projects h3
+{
+	margin: 0;
+}
+
+#projects img
+{
+	display: block;
+	margin: 10px 0px;
+}
+
+#projects .android
+{
+	background-image: url('img/android_vector.png');
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+
+#projects .linux
+{
+	background-image: url('img/Ubuntu-Logo-small.png');
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}

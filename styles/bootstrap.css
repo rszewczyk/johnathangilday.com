@@ -2185,13 +2185,13 @@ button.btn::-moz-focus-inner, input[type=submit].btn::-moz-focus-inner {
 }
 #projects-list .android
 {
-	background-image: url('img/android_vector.png');
+	background-image: url('../img/android_vector.png');
 	background-repeat: no-repeat;
 	background-position: right bottom;
 }
 #projects-list .linux
 {
-	background-image: url('img/Ubuntu-Logo-small.png');
+	background-image: url('../img/Ubuntu-Logo-small.png');
 	background-repeat: no-repeat;
 	background-position: right bottom;
 }

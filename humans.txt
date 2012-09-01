@@ -1,0 +1,13 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+  Developer, Designer, Owner: Johnathan Gilday
+  Site: johnathangilday.com
+  Location: Baltimore, MD
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: HTML5 Boilerplate, Twitter Bootstrap
+  Software: Free GoDaddy hosting until I can justify a real hosting plan ;)

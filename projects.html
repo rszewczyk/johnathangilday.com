@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-    <meta name="description" content="Johnathan Gilday's (Baltimore, MD) personal page">
+    <meta name="description" content="A list of weekend projects that I've been working on. I'll try to update this as often as possible.">
     <meta name="author" content="Johnathan Gilday  me@johnathangilday.com">
     <title>JohnathanGilday.com</title>
 
@@ -12,7 +12,7 @@
     <![endif]-->
 
     <!-- styles -->
-    <link href="styles/bootstrap.css" rel="stylesheet">
+    <link href="styles/bootstrap.min.css" rel="stylesheet">
 
   </head>
 
@@ -21,10 +21,10 @@
     <header class="topbar">
       <div class="fill">
         <div class="container">
-          <a class="brand" href="index.html">Johnathan Gilday</a>
+          <a class="brand" href="/">Johnathan Gilday</a>
 					<nav>
 		        <ul class="nav">
-		          <li><a href="index.html">About me</a></li>
+		          <li><a href="/">About me</a></li>
 		          <li class="active"><a href="#">Projects</a></li>
 							<li><a href="powerhourpro.html">PowerHour Pro</a></li>
 		          <li><a href="CS_GildayJ.pdf">Resume</a></li>
@@ -48,7 +48,7 @@
 								<div class="android">
 									<h3>PowerHour Pro</h3>
 									<a href="https://market.android.com/details?id=gilday.android.powerhour">https://market.android.com/details?id=gilday.android.powerhour</a>
-									<img src="img/powerhour_banner.png" />
+									<img alt="PowerHour Pro app banner" src="img/powerhour_banner.png" />
 									<p>
 PowerHour Pro is my experiment in the Android marketplace. After some experience with a G1, I fell in love with the platform and wanted to jump on the Android train. At the time, I couldn't justify the extra expense of a smart phone so I decided to make an application that will pay for the phone. PowerHour Pro is that application. A <a href="http://en.wikipedia.org/wiki/Power_hour">power hour</a> is a drinking game my roommates and I played in college. It consists of gathering around a stereo and drinking about a shot of beer every minute for an hour. The stereo plays 60 one minute clips, and when the song changes, the participants take their drink. Inspired by an iTunes plugin, iPowerhour, I decided to bring this capability to Android as my experiment in mobile development. Further plans for this app: Open Source it?
 									</p>
@@ -57,7 +57,7 @@ PowerHour Pro is my experiment in the Android marketplace. After some experience
 							<li>
 								<div class="linux">
 									<h3>Ubuntu</h3>
-									<img src="img/my_desktop.png" />
+									<img alt="my Ubuntu desktop" src="img/my_desktop.png" />
 									<p>
 As a proper geek right of passage, I'm seeing how much of my Windows environment I can port to open source Linux solutions. I'll always dual boot, because there's some things I just can't live without. I really love Visual Studio and .NET and I don't see myself leaving that development environment any time soon (or Netflix!). I've set myself up with Ubuntu, and so far, I'm liking it. 
 									</p>
@@ -82,9 +82,22 @@ As a proper geek right of passage, I'm seeing how much of my Windows environment
         </div>
       </div>
 
-			<footer />
+			<footer></footer>
 
     </div> <!-- /container -->
 
   </body>
+  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-28952450-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+  </script>
 </html>

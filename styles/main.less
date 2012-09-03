@@ -1,0 +1,157 @@
+---
+---
+/**
+ * JohnathanGilday.com content styling
+ */
+
+@import "/styles/vendor-imports";
+
+// My variables
+@backgroundColor: #454545;
+
+body
+{
+  /* Drop body down for fixed navbar */
+  padding: @navbarHeight 0;
+  background-color: @backgroundColor;
+}
+
+footer
+{
+  
+  #social
+  {
+    padding-top: 20px;
+  
+    h2
+    {
+      font-size: 18px;
+      font-weight: 500;
+      color: #fff;
+    }
+  
+    ul
+    {
+      list-style: none;
+      display: inline;
+      margin: 0;
+      padding: 0;
+      
+      li
+      {
+        list-style: none;
+        display: inline;
+        margin-left: 20px;
+      }
+      
+      li:first-child
+      {
+        list-style: none;
+        display: inline;
+        margin: 0;
+        padding-left: 0;
+      }
+    }
+  }
+}
+
+.content
+{
+  background-color: @white;
+  padding: 20px;
+  margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+  .border-bottom-radius(6px);
+}
+
+.page-body
+{
+  .makeRow();
+}
+
+
+/**
+ *   About Me specific
+ */
+#about-text
+{
+  .makeColumn(9);
+}
+
+#about-graphic
+{
+  .makeColumn(3);
+}
+
+/**
+ * Projects specific
+ */
+#projects-list
+{
+  li
+  {
+    list-style: none;
+    margin-bottom: 20px;
+  
+    div
+    {
+      .border-radius(1em);
+      border: 2px solid black;
+      padding: 10px;
+    }
+    
+    img
+    {
+     display: block;
+     margin: 10px 0px;
+    }
+    
+    p
+    {
+      padding-right: 280px;
+      text-align: justify;
+    }
+  }
+  
+  .android
+  {
+    background-image: url('/img/android_vector.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+  
+  .linux
+  {
+    background-image: url('/img/Ubuntu-Logo-small.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+}
+
+/**
+ *   PowerHour Pro specific
+ */
+#badges
+{
+  .makeRow();
+  
+  .app-icon
+  {
+    .makeColumn(2);
+  }
+  
+  .android-badge
+  {
+    .makeColumn(2, 8);
+    margin-top: 8px; // Center with app-icon
+  }
+}
+
+#app-details
+{
+  margin-top: 20px;
+  
+  img
+  {
+    .center-block();
+  }
+}

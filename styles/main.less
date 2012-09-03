@@ -4,115 +4,154 @@
  * JohnathanGilday.com content styling
  */
 
-@import "/styles/vendor/bootstrap.css";
+@import "/styles/vendor-imports";
+
+// My variables
+@backgroundColor: #454545;
+
+body
+{
+  /* Drop body down for fixed navbar */
+  padding-top: @navbarHeight;
+  background-color: @backgroundColor;
+}
 
 footer
 {
-  width: 820px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#social
-{
-  padding-top: 20px;
-}
-
-#social h2
-{
-  font-size: 18px;
-  font-weight: 500;
-  color: #fff;
-}
-
-#social ul
-{
-  list-style: none;
-  display: inline;
-  margin: 0;
-  padding: 0;
-}
-
-#social ul li
-{
-  list-style: none;
-  display: inline;
-  margin-left: 20px;
-}
-
-#social ul li:first-child
-{
-  list-style: none;
-  display: inline;
-  margin: 0;
-  padding-left: 0;
+  
+  #social
+  {
+    padding-top: 20px;
+  
+    h2
+    {
+      font-size: 18px;
+      font-weight: 500;
+      color: #fff;
+    }
+  
+    ul
+    {
+      list-style: none;
+      display: inline;
+      margin: 0;
+      padding: 0;
+      
+      li
+      {
+        list-style: none;
+        display: inline;
+        margin-left: 20px;
+      }
+      
+      li:first-child
+      {
+        list-style: none;
+        display: inline;
+        margin: 0;
+        padding-left: 0;
+      }
+    }
+  }
 }
 
 .content
 {
-  background-color: #fff;
+  background-color: @white;
   padding: 20px;
   margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
-  -webkit-border-radius: 0 0 6px 6px;
-     -moz-border-radius: 0 0 6px 6px;
-          border-radius: 0 0 6px 6px;
-  -webkit-box-shadow: 0 1px 10px rgba(0,0,0,.4);
-     -moz-box-shadow: 0 1px 10px rgba(0,0,0,.4);
-          box-shadow: 0 1px 10px rgba(0,0,0,.4);
+  .border-bottom-radius(6px);
 }
+
+.page-body
+{
+  .makeRow();
+}
+
 
 /**
- * Index specific
+ *   About Me specific
  */
-#index-content .span10
+#about-text
 {
-  min-height: 225px;
+  .makeColumn(9);
 }
 
-#index-content .span4
+#about-graphic
 {
-  height: 225px;
-  float: left;
+  .makeColumn(3);
 }
+
 /**
  * Projects specific
  */
 #projects-list
 {
-  margin: 0px;
+  li
+  {
+    list-style: none;
+    margin-bottom: 20px;
+  
+    div
+    {
+      .border-radius(1em);
+      border: 2px solid black;
+      padding: 10px;
+    }
+    
+    img
+    {
+     display: block;
+     margin: 10px 0px;
+    }
+    
+    p
+    {
+      padding-right: 280px;
+      text-align: justify;
+    }
+  }
+  
+  .android
+  {
+    background-image: url('/img/android_vector.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+  
+  .linux
+  {
+    background-image: url('/img/Ubuntu-Logo-small.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
 }
 
-#projects-list li
+/**
+ *   PowerHour Pro specific
+ */
+#badges
 {
-  list-style: none;
-  margin-bottom: 20px;
+  .makeRow();
+  
+  .app-icon
+  {
+    .makeColumn(2);
+  }
+  
+  .android-badge
+  {
+    .makeColumn(2, 8);
+    margin-top: 8px; // Center with app-icon
+  }
 }
 
-#projects-list li div
+#app-details
 {
-     -moz-border-radius: 1em;
-  -webkit-border-radius: 1em;
-          border-radius: 1em;
-  border: 2px solid black;
-  padding: 10px;
-}
-
-#projects-list img
-{
-  display: block;
-  margin: 10px 0px;
-}
-
-#projects-list .android
-{
-  background-image: url('../img/android_vector.png');
-  background-repeat: no-repeat;
-  background-position: right bottom;
-}
-
-#projects-list .linux
-{
-  background-image: url('../img/Ubuntu-Logo-small.png');
-  background-repeat: no-repeat;
-  background-position: right bottom;
+  margin-top: 20px;
+  
+  img
+  {
+    .center-block();
+  }
 }

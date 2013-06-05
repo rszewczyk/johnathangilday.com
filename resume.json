@@ -8,12 +8,12 @@
             },
             {
                 "title": "TacMark Published",
-                "content": "CERDEC's public affairs office put us in touch with the Army Times to talk about the Tactical Marketplace platform we are building. You can check out the article [here](http://www.armytimes.com/news/2012/07/army-platform-orders-via-smartphones-062512/)"
+                "content": "CERDEC's public affairs office put us in touch with the Army Times to talk about the Tactical Marketplace platform we are building. You can check out the article <a href=\"http://www.armytimes.com/news/2012/07/army-platform-orders-via-smartphones-062512/\">here</a>"
             },
             {
                 "title": "CERDEC Software Development Workshop",
                 "picture": "tdd-slide.png",
-                "content": "I siezed an opportunity to speak to my colleagues at CERDEC's Software Development Workshop. I spoke about Test Driven Development; a software development process I have grown fond of using. After a quick talk about TDD, its benefits, and what the process looks like, I demonstrated to the audience an example where I added a new feature to an API the TDD way. The US Army is notoriously guilty of death by PowerPoint, so I took a page from [Jessee Dee](http://www.slideshare.net/jessedee) and tried to make my slides stand out. I haven't adapted the slides to read well without my soundtrack, but I'll post them when they're cleared for release."
+                "content": "I siezed an opportunity to speak to my colleagues at CERDEC's Software Development Workshop. I spoke about Test Driven Development; a software development process I have grown fond of using. After a quick talk about TDD, its benefits, and what the process looks like, I demonstrated to the audience an example where I added a new feature to an API the TDD way. The US Army is notoriously guilty of death by PowerPoint, so I took a page from <a href=\"http://www.slideshare.net/jessedee\">Jessee Dee</a> and tried to make my slides stand out. I haven't adapted the slides to read well without my soundtrack, but I'll post them when they're cleared for release."
             },
             {
                 "title": "Graduated from Rutgers University",
@@ -28,11 +28,11 @@
             {
                 "title": "Co-authored paper for Army Science Conference",
                 "picture": "comet-publicrelease.jpg",
-                "content": "Co-authored a paper with my teammates for the 2008 Army Science Conference. The paper describes a research effort we undertook to develop a multi-touch, multi-user system to facilitate face to face collaboration in a command and control environment. [I'll let the paper speak for itself](www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA503423). This research effort was a good experience for me: I got to work closely with a lot of smart engineers on the prototype pictured here; I also worked closely with the users to develop the application layer and make adaptations based on their immediate feedback. I learned a lot about what it takes to make simple, intuitive user interfaces. In 2010, our team received CERDEC's Employee of the Year award (team category)"
+                "content": "I <a href=\"www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA503423\" title=\"Army Science Conference paper\">co-authored a paper</a> with my teammates for the 2008 Army Science Conference. The paper describes a research effort we undertook to develop a multi-touch, multi-user system to facilitate face to face collaboration in a command and control environment. This research effort was a good experience for me: I got to work closely with a lot of smart engineers on the prototype pictured here; I also worked closely with the users to develop the application layer and make adaptations based on their immediate feedback. I learned a lot about what it takes to make simple, intuitive user interfaces. In 2010, our team received CERDEC's Employee of the Year award (team category)"
             },
             {
                 "title": "Associate Online Editor, Daily Targum",
-                "content": "[The Daily Targume](http://www.dailytargum.com/) is Rutgers University's official student newspaper and the second oldest student newspaper in the United States. While at Rutgers, I started working at the Online desk  helping to publish the paper's articles online and bring new, exclusive online content to DailyTargum.com. During my time at the Targum, the paper's Online desk expanded and my peers elected me to fill the newly formed Associate Online Editor position."
+                "content": "<a href=\"http://www.dailytargum.com\">The Daily Targum</a> is Rutgers University's official student newspaper and the second oldest student newspaper in the United States. While at Rutgers, I started working at the Online desk  helping to publish the paper's articles online and bring new, exclusive online content to DailyTargum.com. During my time at the Targum, the paper's Online desk expanded and my peers elected me to fill the newly formed Associate Online Editor position."
             }
         ]
     },
@@ -46,7 +46,7 @@
             },
             {
                 "title": "Began studying at Rutgers University",
-                "content": "Began studying for my B.S. in Computer Science at Rutgers University in New Brusnwick, NJ. Before starting school, I accepted the Dr. Joseph Frank Scholarship Award for students studying computer science from AFCEA. Relevant coursework I completed at Rutgers includes <ul><li>Data Structures</li><li>Software Methodology</li><li>Discrete Structures</li><li>Principles of Information and Data Management<li>Design and Analysis of Computer Algorithms</li><li>Artificial Intelligence</li><li>Computer Architecture</li><li>Computer Security</li>"
+                "content": "Began studying for my B.S. in Computer Science at Rutgers University in New Brusnwick, NJ. Before starting school, I accepted the Dr. Joseph Frank Scholarship Award for students studying computer science from AFCEA. Relevant coursework I completed at Rutgers includes <ul><li>Data Structures</li><li>Software Methodology</li><li>Discrete Structures</li><li>Principles of Information and Data Management<li>Design and Analysis of Computer Algorithms</li><li>Artificial Intelligence</li><li>Computer Architecture</li><li>Computer Security</li></ul>"
             },
             {
                 "title": "Certified CompTIA Security+",

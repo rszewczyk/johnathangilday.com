@@ -155,3 +155,122 @@ footer
     .center-block();
   }
 }
+
+/** 
+ *   Resume
+ */
+#timeline
+{
+  background-image: url('/img/lightgrey.png');
+  background-repeat: repeat-y;
+  background-position: center;
+  
+  padding-top: 4px;
+  height: 100%;
+  width: 860px;
+  position: relative;
+  .center-block();
+  .clearfix();
+  
+  
+  h2
+  {
+    background-color: @grayLight;
+    text-align: center;
+    width: 180px;
+    .center-block();
+    .border-radius(4px);
+    clear: both;
+  }
+  
+  .arrow
+  {
+    background-repeat: no-repeat;
+    display: block;
+    height: 20px;
+    width: 10px;
+    position: absolute;
+    z-index: 2;
+    margin-top: 40px;
+  }
+  
+  article:nth-child(even)
+  {
+    clear: left;
+    
+    .arrow
+    {
+      background-image: url("/img/rightarrow.png");
+      margin-left: 408px;
+    }    
+  }
+  
+  article:nth-child(odd)
+  {
+    float: right;
+    
+    .arrow
+    {
+      background-image: url("/img/leftarrow.png");
+      margin-left: -10px;
+    }
+  }
+  
+  .event
+  {
+    background-color: @white;
+    border: 1px solid @grayLight;
+    .border-radius(2px);
+    
+    display: block;
+    width: 408px;
+    float: left;
+    margin-bottom: 20px;
+    
+    word-wrap: break-word;
+    
+    .heading
+    {
+      background-color: @grayLighter;
+      border-bottom: 1px solid darken(@grayLighter, 10%);
+      margin: 0 0 4px 0;
+    }
+    
+    .photo 
+    {
+      padding-bottom: 4px;
+      text-align: center;
+      
+      img
+      {
+        .border-radius(2px);
+      }
+    }
+    
+    h3
+    {
+      font-size: 18px;
+      color: @grayDark;
+      padding: 0 8px;
+      margin: 0;
+    }
+  }
+  
+  .left
+  {
+    //clear: left;
+    //float: left;
+  }
+  
+  .right
+  {
+    clear: right;
+    float: right;
+  }
+  
+  .event-body
+  {
+    text-align: justify;
+    padding: 0 8px;
+  }
+}

@@ -1,0 +1,52 @@
+---
+layout: base
+title: Tech Resume
+---
+{% raw %}
+<script id="era-template" type="text/x-handlebars-template">
+{{#eras}}
+	<section>
+		<h2>{{period}}</h2>
+		{{#events}}
+		<article class="event">
+			<span class="arrow"></span>
+			<div class="heading">
+				<h3>{{title}}</h3>
+			</div>
+			<div class="event-body">
+				{{#picture}}
+				<div class="photo">
+					<img src="/img/resume/{{.}}" />
+				</div>
+				{{/picture}}
+				<p>{{{content}}}</p>
+			</div>
+		</article>
+		{{/events}}
+	</section>
+{{/eras}}
+</script>
+{% endraw %}
+
+<script type="text/javascript">
+$(document).ready(function() {
+
+	var source = $('#era-template').text();
+	var eraTemplate = Handlebars.compile(source);
+
+	$.getJSON('/resume.json', function(response) {
+
+		console.log(eraTemplate({eras: response}));
+		$('#timeline').html(eraTemplate({eras: response}));
+	});
+});
+</script>
+
+<div>
+	<p class="resume-bluf">
+		Standard, boring, old, one-page PDF resume available <a href="CS_GildayJ.pdf">here</a>
+	</p>
+	
+	<div id="timeline">
+	</div>
+</div>

@@ -1,0 +1,72 @@
+[
+    {
+        "period": "2010 - Now",
+        "events": [
+            {
+                "title": "Enrolled in JHU masters program",
+                "content": "In Fall 2012, I enrolled in Johns Hopkins University's Engineering Program for Professionals where I can study towards my masters degree part time. I am studying Computer Science again with a concentration in Software Enginnering. I enjoy the software engineering process and the complex problems it aims to solve so I'm looking forward to my coursework."
+            },
+            {
+                "title": "TacMark Published",
+                "content": "CERDEC's public affairs office put us in touch with the Army Times to talk about the Tactical Marketplace platform we are building. You can check out the article <a href=\"http://www.armytimes.com/news/2012/07/army-platform-orders-via-smartphones-062512/\">here</a>"
+            },
+            {
+                "title": "CERDEC Software Development Workshop",
+                "picture": "tdd-slide.png",
+                "content": "I siezed an opportunity to speak to my colleagues at CERDEC's Software Development Workshop. I spoke about Test Driven Development; a software development process I have grown fond of using. After a quick talk about TDD, its benefits, and what the process looks like, I demonstrated to the audience an example where I added a new feature to an API the TDD way. The US Army is notoriously guilty of death by PowerPoint, so I took a page from <a href=\"http://www.slideshare.net/jessedee\">Jessee Dee</a> and tried to make my slides stand out. I haven't adapted the slides to read well without my soundtrack, but I'll post them when they're cleared for release."
+            },
+            {
+                "title": "Graduated from Rutgers University",
+                "picture": "graduated.jpg",
+                "content": "Graduated with the last class of Rutgers College (now School of Arts and Sciences) with a B.S. in Computer Science and a minor in Economics (GPA 3.3). Started my full time position with US Army CERDEC immediately afterward and moved to Baltimore, MD within a year to follow CERDEC."
+            }
+        ]
+    },
+    {
+        "period": "2008 - 2010",
+        "events": [
+            {
+                "title": "Co-authored paper for Army Science Conference",
+                "picture": "comet-publicrelease.jpg",
+                "content": "I <a href=\"www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA503423\" title=\"Army Science Conference paper\">co-authored a paper</a> with my teammates for the 2008 Army Science Conference. The paper describes a research effort we undertook to develop a multi-touch, multi-user system to facilitate face to face collaboration in a command and control environment. This research effort was a good experience for me: I got to work closely with a lot of smart engineers on the prototype pictured here; I also worked closely with the users to develop the application layer and make adaptations based on their immediate feedback. I learned a lot about what it takes to make simple, intuitive user interfaces. In 2010, our team received CERDEC's Employee of the Year award (team category)"
+            },
+            {
+                "title": "Associate Online Editor, Daily Targum",
+                "content": "<a href=\"http://www.dailytargum.com\">The Daily Targum</a> is Rutgers University's official student newspaper and the second oldest student newspaper in the United States. While at Rutgers, I started working at the Online desk  helping to publish the paper's articles online and bring new, exclusive online content to DailyTargum.com. During my time at the Targum, the paper's Online desk expanded and my peers elected me to fill the newly formed Associate Online Editor position."
+            }
+        ]
+    },
+    {
+        "period": "2006 - 2008",
+        "events": [
+            {
+                "title": "Field Technician, Rutgers OIT",
+                "picture": "rutgers-swap.jpg",
+                "content": "During my sophomore year, I worked as a field technician for the Rutgers University Office of Information Technology. I was sent to students' dorms to troubleshoot connectivity issues with the Rutgers network. I don't love troubleshooting IT issues, so I was happy to leave this job and move on to The Daily Targum"
+            },
+            {
+                "title": "Began studying at Rutgers University",
+                "content": "Began studying for my B.S. in Computer Science at Rutgers University in New Brusnwick, NJ. Before starting school, I accepted the Dr. Joseph Frank Scholarship Award for students studying computer science from AFCEA. Relevant coursework I completed at Rutgers includes <ul><li>Data Structures</li><li>Software Methodology</li><li>Discrete Structures</li><li>Principles of Information and Data Management<li>Design and Analysis of Computer Algorithms</li><li>Artificial Intelligence</li><li>Computer Architecture</li><li>Computer Security</li></ul>"
+            },
+            {
+                "title": "Certified CompTIA Security+",
+                "picture": "comptia.jpg",
+                "content": "In high school, I was fortunate enough to have access to interesting technology electives. One of the electives, taught by the fantastic Mandy Galante, prepped my classmates and me for the CompTIA Security+ exam which I passed at the end of the semester. Thanks to Mrs. Galante nominating me, I also received the CompTIA Merit Award from the CompTIA Educational Foundation."
+            }
+        ]
+    },
+    {
+        "period": "2002 - 2006",
+        "events": [
+            {
+                "title": "Began internship at CERDEC",
+                "picture": "cerdec.jpg",
+                "content": "In the summer of 2005, as an incoming high school senior, I started my internship at US Army Communications Electronics Research and Development Engineering Center. I returned to CERDEC each break I had from school until I graduated college and accepted a full time position at CERDEC. My mixture of academic study and apprenticeship (and later employment) at CERDEC has been an invaluable experience."
+            },
+            {
+                "title": "Began my formal computer science training",
+                "content": "In 2002, I began my formal computer science training as a freshman at Red Bank Regional High School. I enrolled in a program RBR HS called the Academy of Information Technology which put me on a track to IT and programming electives each semester until graduation. My graduation class was the last to be taught Pascal in our introduction to programming class (I believe it's all Java now)."
+            }
+        ]
+    }
+]

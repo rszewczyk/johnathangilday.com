@@ -3,12 +3,16 @@
         "period": "2010 - Now",
         "events": [
             {
+                "title": "Goodbye Army, Hello Next Century",
+                "content": "In Winter 2012, I left my CERDEC family to start a new chapter with <a href=\"http://nextcentury.com\">Next Century Corporation</a> as a Senior Software Engineer. Next Century is an exciting place to work and truly prides itself on its commitment to its values and purpose. Currently, I'm part of the agile development team for the open source <a href=\"https://owfgoss.org\">Ozone Widget Framework</a> project."
+            },
+            {
                 "title": "Enrolled in JHU masters program",
-                "content": "In Fall 2012, I enrolled in Johns Hopkins University's Engineering Program for Professionals where I can study towards my masters degree part time. I am studying Computer Science again with a concentration in Software Enginnering. I enjoy the software engineering process and the complex problems it aims to solve so I'm looking forward to my coursework."
+               "content": "<p>In Fall 2012, I enrolled in Johns Hopkins University's Engineering Program for Professionals where I can study towards my masters degree part time. I am studying Computer Science again with a concentration in Software Enginnering. I enjoy the software engineering process and the complex problems it aims to solve so I'm looking forward to my coursework.</p>Coursework I've completed thus far includes <ul><li>Foundations of Software Engineering</li><li>Foundations of Computer Algorithms</li></ul><p>"
             },
             {
                 "title": "TacMark Published",
-                "content": "CERDEC's public affairs office put us in touch with the Army Times to talk about the Tactical Marketplace platform we are building. You can check out the article <a href=\"http://www.armytimes.com/news/2012/07/army-platform-orders-via-smartphones-062512/\">here</a>"
+                "content": "<p>During my time at CERDEC, I led the design and development effort for the Army's Tactical Marketplace (TacMark). TacMark is a web based system capable of delivering software, configuration, and data to soldiers' mobile devices. The TacMark prototype successfully demonstrated how a modular software marketplace is flexible enough to keep up with the rapid pace of the mobile device landscape and ensure that soldiers' mobile devices stay mission-ready.</p><p>CERDEC's public affairs office put us in touch with the Army Times to talk about the Tactical Marketplace platform we built. You can check out the public article <a href=\"http://www.armytimes.com/news/2012/07/army-platform-orders-via-smartphones-062512/\">here</a><p/>"
             },
             {
                 "title": "CERDEC Software Development Workshop",
@@ -46,7 +50,7 @@
             },
             {
                 "title": "Began studying at Rutgers University",
-                "content": "Began studying for my B.S. in Computer Science at Rutgers University in New Brusnwick, NJ. Before starting school, I accepted the Dr. Joseph Frank Scholarship Award for students studying computer science from AFCEA. Relevant coursework I completed at Rutgers includes <ul><li>Data Structures</li><li>Software Methodology</li><li>Discrete Structures</li><li>Principles of Information and Data Management<li>Design and Analysis of Computer Algorithms</li><li>Artificial Intelligence</li><li>Computer Architecture</li><li>Computer Security</li></ul>"
+                "content": "Began studying for my B.S. in Computer Science at Rutgers University in New Brusnwick, NJ. Before starting school, I accepted the Dr. Joseph Frank Scholarship Award for students studying computer science from AFCEA. <p>Coursework I completed at Rutgers includes <ul><li>Data Structures</li><li>Software Methodology</li><li>Discrete Structures</li><li>Principles of Information and Data Management<li>Design and Analysis of Computer Algorithms</li><li>Artificial Intelligence</li><li>Computer Architecture</li><li>Computer Security</li></ul></p>"
             },
             {
                 "title": "Certified CompTIA Security+",

@@ -112,7 +112,7 @@ module.exports = function (grunt) {
                     expand: true, // Enable dynamic expansion
                     cwd: '<%= config.app %>/styles/less', // Src matches are relative to this path
                     src: ['main.less'],
-                    dest: '<%= config.dist %>/styles', // Destination path prefix
+                    dest: '.tmp/styles', // Destination path prefix
                     ext: '.css' // Dest filepaths will have this extension
                 }]
             }
@@ -125,8 +125,7 @@ module.exports = function (grunt) {
                     src: [
                         '<%= config.dist %>/scripts/{,*/}*.js',
                         '<%= config.dist %>/styles/{,*/}*.css',
-                        '<%= config.dist %>/images/{,*/}*.*',
-                        '<%= config.dist %>/styles/fonts/{,*/}*.*',
+                        '<%= config.dist %>/img/{,*/}*.*',
                         '<%= config.dist %>/*.{ico,png}'
                     ]
                 }

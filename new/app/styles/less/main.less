@@ -9,16 +9,27 @@ body {
 
 #about-me {
 
+    @chalk: rgba(220, 220, 220, 0.8);
+
     .container();
 
     font-family: 'rudiment', Helvetica, Arial, sans-serif;
-    color: rgba(220, 220, 220, 0.8);
+    color: @chalk;
     font-size: 22px;
+
+    a {
+        color: @chalk;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
 
     h1, h2, h3, h4 {
         font-family: "eraserregular", Helvetica, Arial, sans-serif;
     }
     h1 {
+        text-transform: uppercase;
         text-align: center;
         font-size: 52px;
     }

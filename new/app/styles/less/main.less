@@ -8,7 +8,43 @@ body {
 }
 
 #about-me {
+
+    .container();
+
+    font-family: 'rudiment', Helvetica, Arial, sans-serif;
+    color: rgba(220, 220, 220, 0.8);
+    font-size: 22px;
+
+    h1, h2, h3, h4 {
+        font-family: "eraserregular", Helvetica, Arial, sans-serif;
+    }
     h1 {
-        font-family: "eraserregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-align: center;
+        font-size: 52px;
+    }
+
+    .baltimore-graphic {
+        .make-sm-column-offset(2);
+        .make-sm-column(4);
+        img {
+            height: 280px;
+        }
+    }
+    .baltimore-text {
+        .make-sm-column-offset(2);
+        .make-sm-column(4);
+        font-size: 40px;
+    }
+    .tech-graphic {
+        .make-sm-column-offset(2);
+        .make-sm-column(4);
+    }
+    .tech-text {
+        .make-sm-column(6);
+        font-size: 28px;
+
+        .parenthetically {
+            font-size: 20px;
+        }
     }
 }

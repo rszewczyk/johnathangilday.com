@@ -25,7 +25,7 @@ module.exports = function (grunt) {
                 }
             },
             less: {
-                files: ['<%= config.app %>/styles/main.less', '<%= config.app %>/styles/bootstrap-variables.less'],
+                files: ['<%= config.app %>/styles/less/main.less', '<%= config.app %>/styles/less/bootstrap-variables.less'],
                 tasks: ['less']
             },
             gruntfile: {
@@ -223,12 +223,6 @@ module.exports = function (grunt) {
 
         // Run some tasks in parallel to speed up build process
         concurrent: {
-            server: [
-                'copy:styles'
-            ],
-            test: [
-                'copy:styles'
-            ],
             dist: [
                 'copy:styles',
                 'imagemin',
@@ -246,7 +240,7 @@ module.exports = function (grunt) {
         grunt.task.run([
             'clean:server',
             'less',
-            'concurrent:server',
+            'copy:styles',
             'connect:livereload',
             'watch'
         ]);

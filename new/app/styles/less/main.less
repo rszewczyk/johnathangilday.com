@@ -9,11 +9,8 @@ body {
 
 #about-me {
 
-    @chalk: rgba(220, 220, 220, 0.8);
-
     .container();
 
-    font-family: 'rudiment', Helvetica, Arial, sans-serif;
     color: @chalk;
     font-size: 22px;
 
@@ -25,9 +22,6 @@ body {
         }
     }
 
-    h1, h2, h3, h4 {
-        font-family: "eraserregular", Helvetica, Arial, sans-serif;
-    }
     h1 {
         text-transform: uppercase;
         text-align: center;
@@ -44,7 +38,10 @@ body {
     .baltimore-text {
         .make-sm-column-offset(2);
         .make-sm-column(4);
-        font-size: 40px;
+        margin-top: 24px;
+        line-height: 1.6;
+        font-size: 28px;
+        font-family: @font-family-big-chalk;
     }
     .tech-graphic {
         .make-sm-column-offset(2);

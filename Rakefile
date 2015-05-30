@@ -9,14 +9,14 @@ end
 desc "builds _site"
 task :build => :clean do
   puts "building _site"
-  system('jekyll')
+  system('jekyll build')
   puts "complete"
 end
 
 desc "deploys test site at localhost:4000"
 task :dev => :clean do
   puts "building and deploying"
-  system('jekyll --server --auto')
+  system('jekyll serve --watch')
   puts "running at localhost:4000 will auto update changes"
 end
 

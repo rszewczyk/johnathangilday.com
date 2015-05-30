@@ -4,9 +4,7 @@ module Jekyll
   # .less -> .css
   class LessConverter < Converter
     safe true
-    priority :low
-    pygments_prefix "\n"
-    pygments_suffix "\n"
+    priority :high
 
     def setup
       return if @setup
@@ -29,7 +27,7 @@ module Jekyll
     def convert(content)
       setup
       begin
-          Less::Parser.new().parse(content).to_css(:compress => true)
+          Less::Parser.new().parse(content).to_css
       rescue => e
         puts "Less Exception: #{e.message}"
       end

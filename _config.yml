@@ -1,2 +1,2 @@
 layout: default
-exclude: Rakefile, README.md
+exclude: [Rakefile, README.md]

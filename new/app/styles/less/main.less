@@ -1,70 +1,75 @@
 @import "fonts.less";
-@import "bootstrap/less/bootstrap.less";
-@import "bootstrap-variables.less";
 
+@screen-large: 960px;
+
+@font-family-small-chalk: 'Schoolbell', Helvetica, Arial, sans-serif;
+@font-family-big-chalk: "eraserregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+@gray-lighter:           lighten(#000, 93.5%); // #eee
+@chalk: rgba(220, 220, 220, 0.8);
+
+
+h1,h2,h3,h4,h5 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: @font-family-big-chalk;
+}
 body {
     background: url(../img/chalk.jpg) no-repeat center center fixed;
     background-size: cover;
+    font-family: @font-family-small-chalk;
+    font-size: 22px;
+}
+body, a {
+    color: @chalk;
+}
+a {
+    text-decoration: none;
 }
 
-#about-me {
+.container {
+    width: @screen-large;
+    margin: 0 auto;
+}
+.navigation ul {
+    padding: none;
+    display: flex;
+    justify-content: space-around;
+}
+.navigation ul li {
+    list-style: none;
+}
+.section {
+    display: flex;
+    margin: 2rem 0;
+}
+.section > div {
+    flex: 1;
+}
+.section-graphic {
+    display: flex;
+    justify-content: center;
+}
+.section-graphic img {
+    height: 280px;
+}
+.section-text {
+    margin-top: 24px;
+}
+.section-text h2 {
+    line-height: 1.6;
+}
 
-    .container();
-
-    color: @chalk;
-    font-size: 22px;
-
-    a {
-        color: @chalk;
-
-        &:hover {
-            text-decoration: none;
-        }
-    }
-
-    h1 {
-        text-transform: uppercase;
-        text-align: center;
-        font-size: 52px;
-    }
-
-    .baltimore-graphic {
-        .make-sm-column-offset(2);
-        .make-sm-column(4);
-        img {
-            height: 280px;
-        }
-    }
-    .baltimore-text {
-        .make-sm-column-offset(2);
-        .make-sm-column(4);
-        margin-top: 24px;
-    }
-    .baltimore-text h2 {
-        line-height: 1.6;
-        font-size: 28px;
-        font-family: @font-family-big-chalk;
-    }
-    .education {
-        font-size: 18px;
-        padding: 0;
-    }
-    .education li {
-        list-style: none;
-    }
-    .education abbr {
-        border: none;
-    }
-    .tech-graphic {
-        .make-sm-column-offset(2);
-        .make-sm-column(4);
-    }
-    .tech-text {
-        .make-sm-column(6);
-        font-size: 28px;
-
-        .parenthetically {
-            font-size: 20px;
-        }
-    }
+.education {
+    padding: 0;
+}
+.education li {
+    list-style: none;
+}
+.education abbr {
+    text-decoration: none;
+    border: none;
+}
+.parenthetically {
+    font-size: 0.8em;
 }

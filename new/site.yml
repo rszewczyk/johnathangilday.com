@@ -1,0 +1,13 @@
+config:
+  title: JohnathanGilday.com
+structure:
+  home:
+    template: index
+    url:      /
+  resume:
+    template: resume
+    url: /resume
+  404:
+    template: '404'
+    url:      /404
+    sitemap:  false

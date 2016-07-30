@@ -1,14 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <title>Johnathan Gilday</title>
     <meta charset="utf-8">
     <meta name="description" content="Johnathan Gilday is a Baltimore based software engineer and this is his personal page">
-    <meta name="author" content="Johnathan Gilday me@johnathangilday.com">
+    <meta name="author" content="Johnathan Gilday <me@johnathangilday.com>">
     <meta name="viewport" content="width=device-width">
-    <!-- build:css(.tmp) styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
-    <!-- endbuild -->
+    
+    <title>Johnathan Gilday</title>
+    
+    <link rel="stylesheet" href="{{ asset('css/vendor.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/main.css') }}">
 
     <!-- HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
@@ -22,7 +23,7 @@
             <h1>Johnathan Gilday</h1>
             <div class="row navigation">
                 <ul>
-                    <li><a href="#">Resume</a></li>
+                    <li><a href="{{ url('resume') | noindexhtml }}">Resume</a></li>
                     <li><a href="#">Github</a></li>
                     <li><a href="#">Google</a></li>
                     <li><a href="#">Facebook</a></li>

@@ -9,3 +9,5 @@ Technologies include
 * npm
 * normalize.css
 * LESS CSS
+
+Social Icons from http://goodstuffnononsense.com/hand-drawn-icons/social-media-icons/

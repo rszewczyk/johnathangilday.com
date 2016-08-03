@@ -32,7 +32,7 @@ body, a {
     margin: 1rem 0;
 }
 .footer ul, .navigation ul {
-    padding: none;
+    padding: 0;
     display: flex;
     justify-content: space-around;
 }
@@ -45,6 +45,9 @@ body, a {
 }
 .footer svg path {
     stroke: @chalk;
+}
+.footer svg:hover > path {
+    fill: @chalk;
 }
 .section {
     display: flex;

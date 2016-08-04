@@ -32,6 +32,7 @@
     "staticpath": "public",
     "cname": "johnathangilday.com",
     "prep": ["clean", "build" ],
+    "post": ["rm-sources"],
     "noprompt": true
   }
 }

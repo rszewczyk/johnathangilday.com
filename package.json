@@ -5,6 +5,7 @@
   "scripts": {
     "build": "brunch build -p",
     "clean": "rm -rf public",
+    "deploy": "gh-pages-deploy",
     "start": "brunch watch --server --port 9000"
   },
   "repository": {
@@ -18,11 +19,17 @@
   "devDependencies": {
     "brunch": "^2.8.2",
     "css-brunch": "^2.6.1",
+    "gh-pages-deploy": "^0.4.2",
     "javascript-brunch": "^2.0.0",
     "less-brunch": "^2.6.0",
     "waffel": "^0.1.5"
   },
   "dependencies": {
     "normalize.css": "^4.1.1"
+  },
+  "gh-pages-deploy": {
+    "staticpath": "public",
+    "cname": "johnathangilday.com",
+    "prep": ["clean", "build" ]
   }
 }

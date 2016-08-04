@@ -6,7 +6,7 @@
     "build": "brunch build -p",
     "clean": "rm -rf public",
     "deploy": "gh-pages-deploy",
-    "rm-sources": "rm -rf README.md app .gitignore node_modules brunch-config.js brunch-server.js lib locales package.json views site.yml",
+    "rm-sources": "rm -rf README.md app .gitignore node_modules brunch-config.js brunch-server.js lib locales package.json views site.yml public",
     "start": "brunch watch --server --port 9000"
   },
   "repository": {

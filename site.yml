@@ -7,7 +7,3 @@ structure:
   resume:
     template: resume
     url: /resume
-  404:
-    template: '404'
-    url:      /404
-    sitemap:  false

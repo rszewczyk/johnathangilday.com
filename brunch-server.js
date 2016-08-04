@@ -9,8 +9,7 @@ module.exports = function(port, path, callback) {
         server:           true,
         serverConfig: {
             port:       port,
-            path:       path,
-            indexPath:  path + '/404.html'
+            path:       path
         }
     });
     wfl.on('server:start', callback);

@@ -1,0 +1,28 @@
+{
+  "name": "johnathangilday.com",
+  "version": "2.0.0",
+  "description": "home page for Johnathan Gilday",
+  "scripts": {
+    "build": "brunch build -p",
+    "clean": "rm -rf public",
+    "start": "brunch watch --server --port 9000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:gilday/johnathangilday.com.git"
+  },
+  "author": "Johnathan Gilday",
+  "license": "Apache-2.0",
+  "private": true,
+  "homepage": "http://johnathangilday.com",
+  "devDependencies": {
+    "brunch": "^2.8.2",
+    "css-brunch": "^2.6.1",
+    "javascript-brunch": "^2.0.0",
+    "less-brunch": "^2.6.0",
+    "waffel": "^0.1.5"
+  },
+  "dependencies": {
+    "normalize.css": "^4.1.1"
+  }
+}

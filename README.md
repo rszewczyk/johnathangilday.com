@@ -1,10 +1,13 @@
-JohnathanGilday.com Source
-=====
+# JohnathanGilday.com
 
-These are the source files for my self-promoting website johnathangilday.com. 
+sources for my personal web site
 
-Technology
-----
+Technologies include
 
-The site uses Twitter Bootstrap for design, Jekyll for templating, LESS for styles, and lessons learned from HTML5 Boilerplate
+* brunch
+* waffle
+* npm
+* normalize.css
+* LESS CSS
 
+Social Icons from http://goodstuffnononsense.com/hand-drawn-icons/social-media-icons/

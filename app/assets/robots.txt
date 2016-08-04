@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: http://johnathangilday.com/sitemap.xml

@@ -25,7 +25,7 @@ body, a {
 }
 
 .container {
-    width: @screen-large;
+    max-width: @screen-large;
     margin: 0 auto;
 }
 .footer {
@@ -51,17 +51,28 @@ body, a {
 }
 .section {
     display: flex;
+    flex-direction: column;
     margin: 2rem 0;
+}
+@media (min-width: @screen-large) {
+.section {
+    flex-direction: row;
+}
 }
 .section > div {
     flex: 1;
 }
+.section-graphic {
+    display: none;
+}
+@media (min-width: @screen-large) {
 .section-graphic {
     display: flex;
     justify-content: center;
 }
 .section-graphic img {
     height: 280px;
+}
 }
 .section-text {
     margin-top: 24px;
@@ -73,9 +84,6 @@ body, a {
     line-height: 1.6;
 }
 
-.education {
-    padding: 0;
-}
 .education li {
     list-style: none;
 }

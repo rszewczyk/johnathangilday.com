@@ -31,8 +31,13 @@
   "gh-pages-deploy": {
     "staticpath": "public",
     "cname": "johnathangilday.com",
-    "prep": ["clean", "build" ],
-    "post": ["rm-sources"],
+    "prep": [
+      "clean",
+      "build"
+    ],
+    "post": [
+      "rm-sources"
+    ],
     "noprompt": true
   }
 }

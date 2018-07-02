@@ -3,7 +3,7 @@ var Waffel = require('waffel'),
 
 function waffelinit(generatedFiles) {
     wfl = new Waffel({
-        domain: 'http://johnathangilday.com',
+        domain: 'https://johnathangilday.com',
         filters: filters
     });
     wfl.init().then(wfl.generate);

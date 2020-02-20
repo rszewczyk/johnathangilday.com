@@ -1,11 +1,11 @@
 # JohnathanGilday.com
 
-sources for my personal web site
+Sources for my personal web site
 
 Technologies include
 
 * brunch
-* waffle
+* waffel
 * npm
 * normalize.css
 * LESS CSS

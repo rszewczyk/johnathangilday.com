@@ -1,9 +1,0 @@
-config:
-  title: JohnathanGilday.com
-structure:
-  home:
-    template: index
-    url:      /
-  resume:
-    template: resume
-    url: /resume

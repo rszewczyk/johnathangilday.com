@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Schoolbell);
+@font-face {
+  font-family: 'eraserregular';
+  src: url('../fonts/Eraser/EraserRegular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Schoolbell);
+@font-face {
+  font-family: 'eraserregular';
+  src: url('../fonts/Eraser/EraserRegular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "eraserregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body {
+  background: url(../img/chalk.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Schoolbell', Helvetica, Arial, sans-serif;
+  font-size: 22px;
+}
+body,
+a {
+  color: rgba(220, 220, 220, 0.8);
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.footer {
+  margin: 1rem 0;
+}
+.footer ul,
+.navigation ul {
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+.footer ul li,
+.navigation ul li {
+  list-style: none;
+}
+.footer svg {
+  height: 4rem;
+  width: 4rem;
+}
+.footer svg path {
+  stroke: rgba(220, 220, 220, 0.8);
+}
+.footer svg:hover > path {
+  fill: rgba(220, 220, 220, 0.8);
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+}
+@media (min-width: 960px) {
+  .section {
+    flex-direction: row;
+  }
+}
+.section > div {
+  flex: 1;
+}
+.section-graphic {
+  display: none;
+}
+@media (min-width: 960px) {
+  .section-graphic {
+    display: flex;
+    justify-content: center;
+  }
+  .section-graphic img {
+    height: 280px;
+  }
+}
+.section-text {
+  margin-top: 24px;
+}
+.section-text a {
+  text-decoration: none;
+}
+.section-text h2 {
+  line-height: 1.6;
+}
+.education li {
+  list-style: none;
+}
+.education abbr {
+  text-decoration: none;
+  border: none;
+}
+.parenthetically {
+  font-size: 0.8em;
+}
+

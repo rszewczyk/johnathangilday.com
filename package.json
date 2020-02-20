@@ -18,12 +18,12 @@
   "private": true,
   "homepage": "http://johnathangilday.com",
   "devDependencies": {
-    "brunch": "^2.8.2",
+    "brunch": "^2.10.17",
     "css-brunch": "^2.6.1",
     "gh-pages-deploy": "^0.4.2",
     "javascript-brunch": "^2.0.0",
     "less-brunch": "^2.6.0",
-    "waffel": "^0.1.5"
+    "waffel": "^0.1.18"
   },
   "dependencies": {
     "normalize.css": "^4.1.1"

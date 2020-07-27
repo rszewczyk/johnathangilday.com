@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Personal landing page, blog, and resume.]]></description><link>https://johnathangilday.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 27 Jul 2020 01:34:00 GMT</lastBuildDate><item><title><![CDATA[OCJUG Instrumentation Talk]]></title><description><![CDATA[In 2018, I took an opportunity to speak to the Orange County Java User
+Group about the
+Java Instrumentation API that powers the Contrast…]]></description><link>https://johnathangilday.com/ocjug-talk/</link><guid isPermaLink="false">https://johnathangilday.com/ocjug-talk/</guid><pubDate>Sat, 01 Sep 2018 00:00:00 GMT</pubDate><content:encoded>&lt;div style=&quot;left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;&quot;&gt;&lt;iframe src=&quot;https://speakerdeck.com/player/84eadd77de4447f9bb94ceb57316e4c5&quot; style=&quot;border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;&quot; allowfullscreen scrolling=&quot;no&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt;In 2018, I took an opportunity to speak to the &lt;a href=&quot;https://www.meetup.com/Orange-County-Java-Users-Group-OCJUG&quot;&gt;Orange County Java User
+Group&lt;/a&gt; about the
+Java Instrumentation API that powers the Contrast Java agent. The deck is
+available &lt;a href=&quot;https://speakerdeck.com/gilday/java-instrumentation-at-contrast-security&quot;&gt;on
+SpeakerDeck&lt;/a&gt;
+This is a fun talk to give, because even to seasoned Java developers, the
+esoteric Instrumentation API can feel like magic.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Contrast Security: Java Agent Developer]]></title><description><![CDATA[As often happens at start-ups, my role at Contrast Security changed to meet the
+company’s new needs. In February 2018, I stepped away from…]]></description><link>https://johnathangilday.com/contrast-java-agent/</link><guid isPermaLink="false">https://johnathangilday.com/contrast-java-agent/</guid><pubDate>Thu, 01 Feb 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 440px; [object Object]&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 76.36363636363637%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EABYBAQEBAAAAAAAAAAAAAAAAAAIAAf/aAAwDAQACEAMQAAAB0MmsvEDP/8QAGhABAAMAAwAAAAAAAAAAAAAAAgEDEgARIv/aAAgBAQABBQKBYTZ1sSUNQ+OnUnzH/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8BV//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/AYj/xAAbEAACAwADAAAAAAAAAAAAAAAAAQIRITFRYf/aAAgBAQAGPwJNzZdxzsVWP3DnCj//xAAcEAACAgIDAAAAAAAAAAAAAAAAAREhQWExcZH/2gAIAQEAAT8hnhMrCMbO2w8PQoFwjbRDykFSEhSuj//aAAwDAQACAAMAAAAQON//xAAWEQEBAQAAAAAAAAAAAAAAAAARAAH/2gAIAQMBAT8QRzZX/8QAFhEBAQEAAAAAAAAAAAAAAAAAIQEQ/9oACAECAQE/EGzH/8QAGxABAAMAAwEAAAAAAAAAAAAAAQARITFhcYH/2gAIAQEAAT8Q1BQIeCNTSwQhuTMjhICnsRGFDhORlksAjAlK1tstjQ+J/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Working hard on the Contrast Java agent in Contrast Security&amp;#39;s Baltimore office&quot;
+        title=&quot;Working hard on the Contrast Java agent in Contrast Security&amp;#39;s Baltimore office&quot;
+        src=&quot;/static/c44ac2b8cdd1ca242ef526ffd972a4b0/a66f6/shelby-driven-development.jpg&quot;
+        srcset=&quot;/static/c44ac2b8cdd1ca242ef526ffd972a4b0/b5655/shelby-driven-development.jpg 110w,
+/static/c44ac2b8cdd1ca242ef526ffd972a4b0/0a632/shelby-driven-development.jpg 220w,
+/static/c44ac2b8cdd1ca242ef526ffd972a4b0/a66f6/shelby-driven-development.jpg 440w,
+/static/c44ac2b8cdd1ca242ef526ffd972a4b0/c507b/shelby-driven-development.jpg 660w,
+/static/c44ac2b8cdd1ca242ef526ffd972a4b0/c6b1a/shelby-driven-development.jpg 880w,
+/static/c44ac2b8cdd1ca242ef526ffd972a4b0/7a411/shelby-driven-development.jpg 2048w&quot;
+        sizes=&quot;(max-width: 440px) 100vw, 440px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;As often happens at start-ups, my role at Contrast Security changed to meet the
+company’s new needs. In February 2018, I stepped away from backend service
+development and took on the role of Principal Engineer for Contrast’s Java agent
+team.&lt;/p&gt;
+&lt;p&gt;Developing a Java agent is a challenging problem. Developing an agent which
+instruments low-level Java APIs for secure data flow analysis, as Contrast does,
+is even more difficult! Performance is always a first-class concern. Testing
+Java agents has its own unique challenges. This is an exciting project to work
+on.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hello, Contrast Security]]></title><description><![CDATA[In March 2017 I left Next Century to join Contrast Security: an application
+security start-up in Baltimore. Contrast is an exciting start-up…]]></description><link>https://johnathangilday.com/contrast/</link><guid isPermaLink="false">https://johnathangilday.com/contrast/</guid><pubDate>Wed, 01 Mar 2017 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 440px; [object Object]&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.36363636363636%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIFA//EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAF2kZxaJAf/xAAZEAADAQEBAAAAAAAAAAAAAAAAAQISERP/2gAIAQEAAQUCSZ3Jqj2s0Kj/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAVEAEBAAAAAAAAAAAAAAAAAAAQMf/aAAgBAQAGPwKNf//EABwQAAICAgMAAAAAAAAAAAAAAAABESExQVFxof/aAAgBAQABPyHe8j4oO4ozJbtjkj//2gAMAwEAAgADAAAAEJs//8QAFhEBAQEAAAAAAAAAAAAAAAAAACGB/9oACAEDAQE/EI1//8QAFhEBAQEAAAAAAAAAAAAAAAAAACGB/9oACAECAQE/EKx//8QAGhABAAMBAQEAAAAAAAAAAAAAAQARMUEhsf/aAAgBAQABPxAekLv4xfIFB30YoKLOrFFHi3P/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Contrast Security&amp;#39;s office at Natty Boh Tower in Baltimore&quot;
+        title=&quot;Contrast Security&amp;#39;s office at Natty Boh Tower in Baltimore&quot;
+        src=&quot;/static/95d994fcfe8e9e005c7c2561d311e433/a66f6/boh-tower.jpg&quot;
+        srcset=&quot;/static/95d994fcfe8e9e005c7c2561d311e433/b5655/boh-tower.jpg 110w,
+/static/95d994fcfe8e9e005c7c2561d311e433/0a632/boh-tower.jpg 220w,
+/static/95d994fcfe8e9e005c7c2561d311e433/a66f6/boh-tower.jpg 440w,
+/static/95d994fcfe8e9e005c7c2561d311e433/c507b/boh-tower.jpg 660w,
+/static/95d994fcfe8e9e005c7c2561d311e433/c6b1a/boh-tower.jpg 880w,
+/static/95d994fcfe8e9e005c7c2561d311e433/87945/boh-tower.jpg 1024w&quot;
+        sizes=&quot;(max-width: 440px) 100vw, 440px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;In March 2017 I left Next Century to join Contrast Security: an application
+security start-up in Baltimore. Contrast is an exciting start-up to work for
+because their product has a unique approach to detecting and preventing
+vulnerabilities by instrumenting customers’ applications at runtime. On previous
+projects at Next Century, I developed an appreciation for devops workflows and
+automating everything; Contrast’s product introduces security to these workflows
+in a way other tools do not. At Contrast, I work on scaling our backend product,
+building cloud native data analytics, our automated test and release pipeline,
+and our Java agent product.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[New Project]]></title><description><![CDATA[In September 2016, I started a new project! I spent several weeks finishing an
+Angular 1.x single page app built with webpack. Next, I did…]]></description><link>https://johnathangilday.com/nextcentury-new-project/</link><guid isPermaLink="false">https://johnathangilday.com/nextcentury-new-project/</guid><pubDate>Thu, 01 Sep 2016 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;In September 2016, I started a new project! I spent several weeks finishing an
+Angular 1.x single page app built with webpack. Next, I did some devops work
+using Ansible to configure a set of OpenStack VMs with a suite of docker
+containers integrated with docker-compose. Lately, I have been working on
+replacing a legacy service with a Node.js app.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Tech Talk on Container-less Java Services]]></title><description><![CDATA[In July 2016, I volunteered to present Container-less Java Services at Next
+Century’s developer tech talk series. After working with Akka’s…]]></description><link>https://johnathangilday.com/containerless-java-talk/</link><guid isPermaLink="false">https://johnathangilday.com/containerless-java-talk/</guid><pubDate>Fri, 01 Jul 2016 00:00:00 GMT</pubDate><content:encoded>&lt;div style=&quot;left: 0; width: 100%; height: 0; position: relative; padding-bottom: 72.8169%;&quot;&gt;&lt;iframe src=&quot;https://speakerdeck.com/player/a967c2d603b9407f81abb9e0c5b7c7ca&quot; style=&quot;border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;&quot; allowfullscreen scrolling=&quot;no&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt;In July 2016, I volunteered to present Container-less Java Services at Next
+Century’s developer tech talk series. After working with Akka’s “microkernel”
+and deploying a web project to Heroku for school, I became increasingly
+interested in Java services which run without the aid of an app server, so I was
+happy to share this with my colleagues. The deck is available on
+&lt;a href=&quot;https://speakerdeck.com/gilday/container-less-java-services&quot;&gt;speakerdeck.com/gilday/container-less-java-services&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Completed M.S. Computer Science at JHU]]></title><description><![CDATA[Spring 2016 I completed my M.S. Computer Science at Johns Hopkins University
+Engineering for Professionals school with a concentration in…]]></description><link>https://johnathangilday.com/more-nextcentury/</link><guid isPermaLink="false">https://johnathangilday.com/more-nextcentury/</guid><pubDate>Fri, 01 Jan 2016 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Spring 2016 I completed my M.S. Computer Science at Johns Hopkins University
+Engineering for Professionals school with a concentration in Web and Enterprise
+Computing.&lt;/p&gt;
+&lt;p&gt;Coursework includes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Agile Software Development Methods&lt;/li&gt;
+&lt;li&gt;Enterprise Computing with Java&lt;/li&gt;
+&lt;li&gt;Big Data Processing Using Hadoop&lt;/li&gt;
+&lt;li&gt;Mobile Application Development for the Android Platform&lt;/li&gt;
+&lt;li&gt;System Development, UNIX Environment&lt;/li&gt;
+&lt;li&gt;Artificial Intelligence&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[New Beginnings]]></title><description><![CDATA[Far far away, behind the word mountains, far from the countries Vokalia and
+Consonantia, there live the blind texts. Separated they live in…]]></description><link>https://johnathangilday.com/new-beginnings/</link><guid isPermaLink="false">https://johnathangilday.com/new-beginnings/</guid><pubDate>Thu, 28 May 2015 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and
+Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
+right at the coast of the Semantics, a large language ocean. A small river named
+Duden flows by their place and supplies it with the necessary regelialia.&lt;/p&gt;
+&lt;h2&gt;On deer horse aboard tritely yikes and much&lt;/h2&gt;
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad
+Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
+didn’t listen. She packed her seven versalia, put her initial into the belt and
+made herself on the way.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This however showed weasel&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Well uncritical so misled&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;this is very interesting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Goodness much until that fluid owl&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When she reached the first hills of the &lt;strong&gt;Italic Mountains&lt;/strong&gt;, she had a last
+view back on the skyline of her hometown &lt;em&gt;Bookmarksgrove&lt;/em&gt;, the headline of
+&lt;a href=&quot;http://google.com&quot;&gt;Alphabet Village&lt;/a&gt; and the subline of her own road, the Line
+Lane. Pityful a rhetoric question ran over her cheek, then she continued her
+way. On her way she met a copy.&lt;/p&gt;
+&lt;h3&gt;Overlaid the jeepers uselessly much excluding&lt;/h3&gt;
+&lt;p&gt;But nothing the copy said could convince her and so it didn’t take long until a
+few insidious Copy Writers ambushed her, made her drunk with
+&lt;a href=&quot;http://google.com&quot;&gt;Longe and Parole&lt;/a&gt; and dragged her into their agency, where
+they abused her for their projects again and again. And if she hasn’t been
+rewritten, then they are still using her.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and
+Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
+right at the coast of the Semantics, a large language ocean.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It is a paradisematic country, in which roasted parts of sentences fly into your
+mouth. Even the all-powerful Pointing has no control about the blind texts it is
+an almost unorthographic life One day however a small line of blind text by the
+name of Lorem Ipsum decided to leave for the far World of Grammar.&lt;/p&gt;
+&lt;h3&gt;According a funnily until pre-set or arrogant well cheerful&lt;/h3&gt;
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad
+Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
+didn’t listen. She packed her seven versalia, put her initial into the belt and
+made herself on the way.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;So baboon this&lt;/li&gt;
+&lt;li&gt;Mounted militant weasel gregariously admonishingly straightly hey&lt;/li&gt;
+&lt;li&gt;Dear foresaw hungry and much some overhung&lt;/li&gt;
+&lt;li&gt;Rash opossum less because less some amid besides yikes jeepers frenetic
+impassive fruitlessly shut&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;When she reached the first hills of the Italic Mountains, she had a last view
+back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet
+Village and the subline of her own road, the Line Lane. Pityful a rhetoric
+question ran over her cheek, then she continued her way. On her way she met a
+copy.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The copy warned the Little Blind Text, that where it came from it would have
+been rewritten a thousand times and everything that was left from its origin
+would be the word “and” and the Little Blind Text should turn around and
+return to its own, safe country.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;But nothing the copy said could convince her and so it didn’t take long until a
+few insidious Copy Writers ambushed her, made her drunk with Longe and Parole
+and dragged her into their agency, where they abused her for their projects
+again and again. And if she hasn’t been rewritten, then they are still using
+her. Far far away, behind the word mountains, far from the countries Vokalia and
+Consonantia, there live the blind texts.&lt;/p&gt;
+&lt;h4&gt;Silent delightfully including because before one up barring chameleon&lt;/h4&gt;
+&lt;p&gt;Separated they live in Bookmarksgrove right at the coast of the Semantics, a
+large language ocean. A small river named Duden flows by their place and
+supplies it with the necessary regelialia. It is a paradisematic country, in
+which roasted parts of sentences fly into your mouth.&lt;/p&gt;
+&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an
+almost unorthographic life One day however a small line of blind text by the
+name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox
+advised her not to do so, because there were thousands of bad Commas, wild
+Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.&lt;/p&gt;
+&lt;h5&gt;Wherever far wow thus a squirrel raccoon jeez jaguar this from along&lt;/h5&gt;
+&lt;p&gt;She packed her seven versalia, put her initial into the belt and made herself on
+the way. When she reached the first hills of the Italic Mountains, she had a
+last view back on the skyline of her hometown Bookmarksgrove, the headline of
+Alphabet Village and the subline of her own road, the Line Lane. Pityful a
+rhetoric question ran over her cheek, then she continued her way. On her way she
+met a copy.&lt;/p&gt;
+&lt;h6&gt;Slapped cozy a that lightheartedly and far&lt;/h6&gt;
+&lt;p&gt;The copy warned the Little Blind Text, that where it came from it would have
+been rewritten a thousand times and everything that was left from its origin
+would be the word “and” and the Little Blind Text should turn around and return
+to its own, safe country. But nothing the copy said could convince her and so it
+didn’t take long until a few insidious Copy Writers ambushed her, made her drunk
+with Longe and Parole and dragged her into their agency, where they abused her
+for their projects again and again.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Second Post!]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
+chicken eggs, though the…]]></description><link>https://johnathangilday.com/my-second-post/</link><guid isPermaLink="false">https://johnathangilday.com/my-second-post/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
+&lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
+chicken eggs, though the taste and texture will be somewhat different, and the
+egg yolk will be less rich.”?
+(&lt;a href=&quot;https://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hello World]]></title><description><![CDATA[This is my first post on my new fake blog! How exciting! I’m sure I’ll write a lot more interesting things in the future. Oh, and here’s a…]]></description><link>https://johnathangilday.com/hello-world/</link><guid isPermaLink="false">https://johnathangilday.com/hello-world/</guid><pubDate>Fri, 01 May 2015 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;This is my first post on my new fake blog! How exciting!&lt;/p&gt;
+&lt;p&gt;I’m sure I’ll write a lot more interesting things in the future.&lt;/p&gt;
+&lt;p&gt;Oh, and here’s a great quote from this Wikipedia on
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;salted duck eggs&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A salted duck egg is a Chinese preserved food product made by soaking duck
+eggs in brine, or packing each egg in damp, salted charcoal. In Asian
+supermarkets, these eggs are sometimes sold covered in a thick layer of salted
+charcoal paste. The eggs may also be sold with the salted paste removed,
+wrapped in plastic, and vacuum packed. From the salt curing process, the
+salted duck eggs have a briny aroma, a gelatin-like egg white and a
+firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 440px; [object Object]&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75.45454545454545%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMB/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAEEBf/aAAwDAQACEAMQAAABgik0dXC//8QAGRABAAMBAQAAAAAAAAAAAAAAAQACEhEy/9oACAEBAAEFAkqW2DlnRj73yf/EABcRAQADAAAAAAAAAAAAAAAAAAAREkH/2gAIAQMBAT8B1WX/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQL/2gAIAQIBAT8Bi6f/xAAbEAABBAMAAAAAAAAAAAAAAAAAAQIRISIxMv/aAAgBAQAGPwK9GNocyS8hCj//xAAbEAADAQADAQAAAAAAAAAAAAABESEAMUGBof/aAAgBAQABPyGxNMfrLHmCDZmAzzvJJDjEQCHv/9oADAMBAAIAAwAAABDIL//EABYRAQEBAAAAAAAAAAAAAAAAAAERAP/aAAgBAwEBPxARhylZv//EABgRAAIDAAAAAAAAAAAAAAAAAAABESFR/9oACAECAQE/EFoktI//xAAdEAEBAAICAwEAAAAAAAAAAAABEQAxIWFBcYHh/9oACAEBAAE/EEbMLQ0fMHDVaPIXyI4pk4JUnWacNCtO8ojDE9TGIYES7/Jn/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Chinese Salty Egg&quot;
+        title=&quot;Chinese Salty Egg&quot;
+        src=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/a66f6/salty_egg.jpg&quot;
+        srcset=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/b5655/salty_egg.jpg 110w,
+/static/8058f3f26913fea3b6a89a73344fe94a/0a632/salty_egg.jpg 220w,
+/static/8058f3f26913fea3b6a89a73344fe94a/a66f6/salty_egg.jpg 440w,
+/static/8058f3f26913fea3b6a89a73344fe94a/c507b/salty_egg.jpg 660w,
+/static/8058f3f26913fea3b6a89a73344fe94a/c6b1a/salty_egg.jpg 880w,
+/static/8058f3f26913fea3b6a89a73344fe94a/7a411/salty_egg.jpg 2048w&quot;
+        sizes=&quot;(max-width: 440px) 100vw, 440px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[More Next Century Projects]]></title><description><![CDATA[Next Century affords me many opportunities to migrate between projects and gain
+a variety of experience with secure system development. I’ve…]]></description><link>https://johnathangilday.com/graduated-jhu/</link><guid isPermaLink="false">https://johnathangilday.com/graduated-jhu/</guid><pubDate>Sat, 01 Mar 2014 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Next Century affords me many opportunities to migrate between projects and gain
+a variety of experience with secure system development. I’ve worked on several
+projects including a suite of cross-domain solutions, a customer collection
+filtering system, and an enterprise data service.&lt;/p&gt;
+&lt;p&gt;While supporting these projects, some notable components I worked on includes&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cloud infrastructure automation with OpenStack and Ansible&amp;#x3C;&lt;/li&gt;
+&lt;li&gt;User log analysis with Apache NiFi&lt;/li&gt;
+&lt;li&gt;Backend services in Python and Go&lt;/li&gt;
+&lt;li&gt;A Web dashboard written with AngularJS and D3&lt;/li&gt;
+&lt;li&gt;Java and Scala web services serving data from Berkeley DB JE&lt;/li&gt;
+&lt;li&gt;Scaling and tuning a Cassandra cluster&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Goodbye Army, Hello Next Century]]></title><description><![CDATA[In winter 2012, I left CERDEC to start a new chapter with Next Century
+Corporation (acquired by CACI in 2019) as a Senior
+Software Engineer…]]></description><link>https://johnathangilday.com/nextcentury/</link><guid isPermaLink="false">https://johnathangilday.com/nextcentury/</guid><pubDate>Mon, 01 Oct 2012 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 440px; [object Object]&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 133.63636363636363%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAQBAgUD/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAdZKiBuCBZmq9aFCQ//EAB0QAAICAgMBAAAAAAAAAAAAAAECAAMRMRASITL/2gAIAQEAAQUC3Hvw4IYG4922lqqjNPZk8H5XX//EABYRAQEBAAAAAAAAAAAAAAAAAAERIP/aAAgBAwEBPwELj//EABYRAQEBAAAAAAAAAAAAAAAAAAEQEf/aAAgBAgEBPwFZk//EAB0QAAIBBAMAAAAAAAAAAAAAAAABEQIQITESUYH/2gAIAQEABj8CONNDqjbE+x5HliUMcEvJu3tv/8QAGxABAAMBAQEBAAAAAAAAAAAAAQARIUExEMH/2gAIAQEAAT8h9VPTUoIVXBcLRUOQiwl7jVRk4ShsVe3LIAWhTinZjHPz8P/aAAwDAQACAAMAAAAQH+T9/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAEREP/aAAgBAwEBPxCwgnn/xAAWEQEBAQAAAAAAAAAAAAAAAAAAETH/2gAIAQIBAT8QhioR/8QAHhABAAIDAAIDAAAAAAAAAAAAAQARITFBUWFxwfD/2gAIAQEAAT8QbHU8x3I3IAPQvbMbaCyUDaaqvmWIIopJbsmKI+bu8/cNoRVssQcVTVrs9d5K6oe2aESKkcFc/CacE//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Me at Next Century&amp;#39;s HQ&quot;
+        title=&quot;Me at Next Century&amp;#39;s HQ&quot;
+        src=&quot;/static/5c09b2b11891d025025976c5c87fd997/a66f6/next-century-selfie.jpg&quot;
+        srcset=&quot;/static/5c09b2b11891d025025976c5c87fd997/b5655/next-century-selfie.jpg 110w,
+/static/5c09b2b11891d025025976c5c87fd997/0a632/next-century-selfie.jpg 220w,
+/static/5c09b2b11891d025025976c5c87fd997/a66f6/next-century-selfie.jpg 440w,
+/static/5c09b2b11891d025025976c5c87fd997/c507b/next-century-selfie.jpg 660w,
+/static/5c09b2b11891d025025976c5c87fd997/c6b1a/next-century-selfie.jpg 880w,
+/static/5c09b2b11891d025025976c5c87fd997/77f9a/next-century-selfie.jpg 2448w&quot;
+        sizes=&quot;(max-width: 440px) 100vw, 440px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;In winter 2012, I left CERDEC to start a new chapter with &lt;a href=&quot;http://nextcentury.com&quot;&gt;Next Century
+Corporation&lt;/a&gt; (acquired by CACI in 2019) as a Senior
+Software Engineer. Next Century is an exciting place to work and truly prides
+itself on its commitment to its values and purpose. I started as part of the
+agile development team for the open source &lt;a href=&quot;https://owfgoss.org&quot;&gt;Ozone Widget
+Framework&lt;/a&gt; project.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Began studying at JHU]]></title><description><![CDATA[In Fall 2012, I enrolled in Johns Hopkins University’s Engineering Program for
+Professionals to study towards my Masters degree part time. I…]]></description><link>https://johnathangilday.com/began-jhu/</link><guid isPermaLink="false">https://johnathangilday.com/began-jhu/</guid><pubDate>Sat, 01 Sep 2012 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;In Fall 2012, I enrolled in Johns Hopkins University’s Engineering Program for
+Professionals to study towards my Masters degree part time. I studied Computer
+Science again with a concentration in Software Enginnering. I enjoy the software
+engineering process and the complex problems it aims to solve so I’m looking
+forward to my coursework.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[CERDEC Software Development Workshop]]></title><description><![CDATA[I siezed an opportunity to speak to my colleagues at CERDEC’s Software
+Development Workshop. I spoke about Test Driven Development; a…]]></description><link>https://johnathangilday.com/cerdec-tdd-workshop/</link><guid isPermaLink="false">https://johnathangilday.com/cerdec-tdd-workshop/</guid><pubDate>Sat, 01 Jan 2011 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 392px; [object Object]&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.54545454545453%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAAsTAAALEwEAmpwYAAADf0lEQVQozw3Q+VMadwAF8G+YNCM1WpBgpDaWQ2CXSxbk3sDuAgvIQrkPuUXwwAWKxXpEFK3JVCEzUVoTYzuZJj+YxCMZO9N2Jn9cefN+/cybeUBLyDQ2tVIvEUAT95ic4W84HM7I4H2WnZTu7D8uLmrcPunWLpbM6RiDHOYIFwywWbyxSEZXqKCA9MI/lWA6L6Hz0FZF6HUqlEqNTq9brjhfnrlW10ytXSyVnx4Z5Q4MP7jDZPOhCSMGT0j5GosEENRUcEbpdcq8HiTik5nNiMVqIkmzwahEbXyCFPEejbzoeQkXDMDgpIIfSel/fuJaqGHsb7nA4ZGvZMR0VlhOiOpz4sMNSbWsc3mshB1ZXtGks2pfSB5LIbFZjRmTmHG5CVNWm47KKmbEICCFvk+FFSGfkiKV1RJSX9BEwyYDal1adqZysBEVzvig7TaWyGr0lkm1flIoFyzQ1ourWdQhBzIJtzEnXkoKl3NQvazaqcO7NfH+qnR3E724pBpNw1HXTjeMuBsKxpFM0Vj5EYMR0cnLgNWtApB4LB2E436ILqmXCpr+8kYFqhVlzYb147X/8tr/35fYIq07fe1PFfUoAT1pO+2UvFQxUjENkEO8ak5azUvWV1S/rCn7Xm9BMYetvGi//hw4fU02N82pvPrmNtI7c6+30Lfvw8867q02cXTsBZB8PE4JEtR382lJbV48n1aTHksgaFuh7VeffIfPbYRLkC6oDg6JszfU5efYh5v46qb9oOPuFwiE0kKxks6WG2uNaoP2+nHSberjaNzi8AhDMQhWcENx+MN14I+//Lf/JvomWzY8e04edD3AgGrrNTqfz+7tb7Radf8PjwmHIZYgLOjUEIsZTcq2d41UUHxwaP30d+DPd15PQLbzFO+d+ZrbONBaVF7KgxNEMhUIhGwzlAknDMGwLZowJLMivXlchYx9PcykG7p/vkT2f8V8Yfj3c+9v5/5oRgsQZLrb7bTbeye94/Ji2kkacdxEuqyzaRTFeWzufUTPC0SEp+f2dx9nknlFvanr9pwvXlEi+SMwNDQ0OsplsdgT/Icev4xuoKWKJZU39r/NzInvDtydX5K9v3Ff3VK5hanG+vTRMbbz1BovaBkDg4DBYIA7oB82554Bf9g+0jVbWkjJSeSkEsWDVGHy4sZx/tbtoEQkJXr1huyckHsdQqIaB+Cr/wElTRNAXKcc1QAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;TDD presentation slide&quot;
+        title=&quot;TDD presentation slide&quot;
+        src=&quot;/static/4ddd1447ed6333b0c71d6dc020f90d0b/35e38/tdd-slide.png&quot;
+        srcset=&quot;/static/4ddd1447ed6333b0c71d6dc020f90d0b/707e9/tdd-slide.png 110w,
+/static/4ddd1447ed6333b0c71d6dc020f90d0b/d42a7/tdd-slide.png 220w,
+/static/4ddd1447ed6333b0c71d6dc020f90d0b/35e38/tdd-slide.png 392w&quot;
+        sizes=&quot;(max-width: 392px) 100vw, 392px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I siezed an opportunity to speak to my colleagues at CERDEC’s Software
+Development Workshop. I spoke about Test Driven Development; a software
+development process I have grown fond of using. After a quick talk about TDD,
+its benefits, and what the process looks like, I demonstrated to the audience an
+example where I added a new feature to an API the TDD way. The US Army is
+notoriously guilty of death by PowerPoint, so I took a page from &lt;a href=&quot;https://www.slideshare.net/jessedee&quot;&gt;Jessee
+Dee&lt;/a&gt; and tried to make my slides stand out.
+I haven’t adapted the slides to read well without my soundtrack, but I’ll post
+them when they’re cleared for release.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Graduated from Rutgers University]]></title><description><![CDATA[Graduated with the last class of Rutgers College (now School of Arts and
+Sciences) with a B.S. in Computer Science and a minor in Economics…]]></description><link>https://johnathangilday.com/graduated-rutgers/</link><guid isPermaLink="false">https://johnathangilday.com/graduated-rutgers/</guid><pubDate>Fri, 01 Jan 2010 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 392px; [object Object]&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75.45454545454545%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EABYBAQEBAAAAAAAAAAAAAAAAAAIAAf/aAAwDAQACEAMQAAABTen7WuEQJ//EAB0QAAICAQUAAAAAAAAAAAAAAAECABMDBBESISL/2gAIAQEAAQUC72XAhl9Mt8nULC3I/wD/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAVEQEBAAAAAAAAAAAAAAAAAAAQIf/aAAgBAgEBPwGH/8QAHBAAAgICAwAAAAAAAAAAAAAAAAECERIhMYKh/9oACAEBAAY/AtIVvEcOaMK7EfRs/8QAGhAAAwEBAQEAAAAAAAAAAAAAAREhADFBcf/aAAgBAQABPyGmaBnAn0NQCAu4A42fBuoMzshs6ypl7//aAAwDAQACAAMAAAAQNB//xAAXEQADAQAAAAAAAAAAAAAAAAAAARFB/9oACAEDAQE/EInpD//EABgRAQEAAwAAAAAAAAAAAAAAAAEAESFB/9oACAECAQE/EARuw8v/xAAdEAEBAQEAAQUAAAAAAAAAAAABESEAMUFRgZHR/9oACAEBAAE/EFyWou+vUplsJR+Hh1cYirwILcQDb9cCTzbL2ZmfvDqDInivf//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;graduation&quot;
+        title=&quot;graduation&quot;
+        src=&quot;/static/896fbc8f4cd82902e20b02003ccfff33/6514a/graduation.jpg&quot;
+        srcset=&quot;/static/896fbc8f4cd82902e20b02003ccfff33/b5655/graduation.jpg 110w,
+/static/896fbc8f4cd82902e20b02003ccfff33/0a632/graduation.jpg 220w,
+/static/896fbc8f4cd82902e20b02003ccfff33/6514a/graduation.jpg 392w&quot;
+        sizes=&quot;(max-width: 392px) 100vw, 392px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Graduated with the last class of Rutgers College (now School of Arts and
+Sciences) with a B.S. in Computer Science and a minor in Economics (GPA 3.3).
+Started my full time position with US Army CERDEC immediately afterward and
+moved to Baltimore, MD within a year to follow CERDEC.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Co-authored paper for Army Science Conference]]></title><description><![CDATA[I co-authored a paper with my teammates for the 2008 Army Science
+Conference. The paper describes a research effort we undertook to develop…]]></description><link>https://johnathangilday.com/comet-paper/</link><guid isPermaLink="false">https://johnathangilday.com/comet-paper/</guid><pubDate>Tue, 01 Jan 2008 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 440px; [object Object]&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75.45454545454545%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAQX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABmZt0cEcH/8QAGhAAAgMBAQAAAAAAAAAAAAAAAQIAAxIRE//aAAgBAQABBQLhMFeg6ZakpPOWMA//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAaEAACAgMAAAAAAAAAAAAAAAAAARAhMTJR/9oACAEBAAY/AtmZi1HT/8QAHBAAAgICAwAAAAAAAAAAAAAAAREAITFhUXGR/9oACAEBAAE/IRgMjwtpx6AyOZZBO4ATflVDQWG5/9oADAMBAAIAAwAAABAfP//EABYRAQEBAAAAAAAAAAAAAAAAAAARIf/aAAgBAwEBPxCxj//EABYRAQEBAAAAAAAAAAAAAAAAAAEQEf/aAAgBAgEBPxANn//EABwQAQACAgMBAAAAAAAAAAAAAAEAESExQWGBkf/aAAgBAQABPxAo2Gc8Rke5l6RuRI0i9xSkrXkWd6UNvhD/AEMDvXk//9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;COMET demonstration photo&quot;
+        title=&quot;COMET demonstration photo&quot;
+        src=&quot;/static/e4ec940a8cd5a3f25008801f379609ae/a66f6/comet-publicrelease.jpg&quot;
+        srcset=&quot;/static/e4ec940a8cd5a3f25008801f379609ae/b5655/comet-publicrelease.jpg 110w,
+/static/e4ec940a8cd5a3f25008801f379609ae/0a632/comet-publicrelease.jpg 220w,
+/static/e4ec940a8cd5a3f25008801f379609ae/a66f6/comet-publicrelease.jpg 440w,
+/static/e4ec940a8cd5a3f25008801f379609ae/bbe0c/comet-publicrelease.jpg 640w&quot;
+        sizes=&quot;(max-width: 440px) 100vw, 440px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I &lt;a href=&quot;http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA503423%20Army%0AScience%20Conference%20paper&quot;&gt;co-authored a paper&lt;/a&gt; with my teammates for the 2008 Army Science
+Conference. The paper describes a research effort we undertook to develop a
+multi-touch, multi-user system to facilitate face to face collaboration in a
+command and control environment. This research effort was a good experience for
+me: I got to work closely with a lot of smart engineers on the prototype
+pictured here; I also worked closely with the users to develop the application
+layer and make adaptations based on their immediate feedback. I learned a lot
+about what it takes to make simple, intuitive user interfaces. In 2010, our team
+received CERDEC’s Employee of the Year award (team category).&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Associate Online Editor, Daily Targum]]></title><description><![CDATA[The Daily Targum is Rutgers University’s official
+student newspaper and the second oldest student newspaper in the United States.
+While at…]]></description><link>https://johnathangilday.com/targum-editor/</link><guid isPermaLink="false">https://johnathangilday.com/targum-editor/</guid><pubDate>Tue, 01 Jan 2008 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.dailytargum.com&quot;&gt;The Daily Targum&lt;/a&gt; is Rutgers University’s official
+student newspaper and the second oldest student newspaper in the United States.
+While at Rutgers, I started working at the Online desk helping to publish the
+paper’s articles online and bring new, exclusive online content to
+DailyTargum.com. During my time at the Targum, the paper’s Online desk expanded
+and my peers elected me to fill the newly formed Associate Online Editor
+position.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Student Work]]></title><description><![CDATA[During my sophomore year, I worked as a field technician for the Rutgers
+University Office of Information Technology. I was sent to students…]]></description><link>https://johnathangilday.com/student-work/</link><guid isPermaLink="false">https://johnathangilday.com/student-work/</guid><pubDate>Mon, 01 Jan 2007 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 392px; [object Object]&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75.45454545454545%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQT/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABg+uvCVE//8QAGRAAAgMBAAAAAAAAAAAAAAAAAAIBAxMx/9oACAEBAAEFAkRR64UzUgt6f//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABYQAQEBAAAAAAAAAAAAAAAAADEQIP/aAAgBAQAGPwIhj//EABsQAQACAgMAAAAAAAAAAAAAAAEAESFREEFh/9oACAEBAAE/IexT2YrN6SKN1mdBGoXVcf/aAAwDAQACAAMAAAAQG/8A/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8QJ//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/EIj/xAAaEAEAAwEBAQAAAAAAAAAAAAABABExUSFB/9oACAEBAAE/ELWVPguLFVpEeOS5AvnkHbfCcCovps2f/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Rutgers SWAT t-shirt&quot;
+        title=&quot;Rutgers SWAT t-shirt&quot;
+        src=&quot;/static/abbdcd55c82141ce07a54d952d088c16/6514a/rutgers-swat.jpg&quot;
+        srcset=&quot;/static/abbdcd55c82141ce07a54d952d088c16/b5655/rutgers-swat.jpg 110w,
+/static/abbdcd55c82141ce07a54d952d088c16/0a632/rutgers-swat.jpg 220w,
+/static/abbdcd55c82141ce07a54d952d088c16/6514a/rutgers-swat.jpg 392w&quot;
+        sizes=&quot;(max-width: 392px) 100vw, 392px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;During my sophomore year, I worked as a field technician for the Rutgers
+University Office of Information Technology. I was sent to students’ dorms to
+troubleshoot connectivity issues with the Rutgers network.&lt;/p&gt;
+&lt;p&gt;I don’t love troubleshooting IT issues, so I was happy to leave this job and
+take a position at The Daily Targum. The Daily Targum is the oldest daily
+studen-run newspaper in the United States. I helped to run dailytargum.com. My
+peers at the Targum elected me to the newly created Associate Online Editor
+position.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Began studying at Rutgers University]]></title><description><![CDATA[Began studying for my B.S. in Computer Science at Rutgers University in New
+Brusnwick, NJ. Before starting school, I accepted the Dr. Joseph…]]></description><link>https://johnathangilday.com/began-rutgers/</link><guid isPermaLink="false">https://johnathangilday.com/began-rutgers/</guid><pubDate>Sun, 01 Jan 2006 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Began studying for my B.S. in Computer Science at Rutgers University in New
+Brusnwick, NJ. Before starting school, I accepted the Dr. Joseph Frank
+Scholarship Award for students studying computer science from AFCEA.&lt;/p&gt;
+&lt;p&gt;Coursework I completed at Rutgers includes&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Data Structures&lt;/li&gt;
+&lt;li&gt;Software Methodology&lt;/li&gt;
+&lt;li&gt;Discrete Structures&lt;/li&gt;
+&lt;li&gt;Principles of Information and Data Management&lt;/li&gt;
+&lt;li&gt;Design and Analysis of Computer Algorithms&lt;/li&gt;
+&lt;li&gt;Artificial Intelligence&lt;/li&gt;
+&lt;li&gt;Computer Architecture&lt;/li&gt;
+&lt;li&gt;Computer Security&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Certified CompTIA Security+]]></title><description><![CDATA[In high school, I was fortunate enough to have access to interesting technology
+electives. One of the electives, taught by the fantastic…]]></description><link>https://johnathangilday.com/hs-comptia-security/</link><guid isPermaLink="false">https://johnathangilday.com/hs-comptia-security/</guid><pubDate>Sun, 01 Jan 2006 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 440px; [object Object]&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75.45454545454545%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAUBAgME/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAU+k9xSsqB//xAAbEAACAwADAAAAAAAAAAAAAAAAAQMREgITIf/aAAgBAQABBQLgrElmiPKJlD1+H//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABsQAAIBBQAAAAAAAAAAAAAAAAABMQIQESFR/9oACAEBAAY/AmPpJJmnTt//xAAbEAADAQEAAwAAAAAAAAAAAAAAARExIUFRYf/aAAgBAQABPyG/rFSxq9D6QeFaeYI6DIjrT//aAAwDAQACAAMAAAAQ2D//xAAXEQADAQAAAAAAAAAAAAAAAAAAASER/9oACAEDAQE/EHMIf//EABYRAAMAAAAAAAAAAAAAAAAAABARQf/aAAgBAgEBPxBUf//EABwQAQEAAgMBAQAAAAAAAAAAAAERACExQWFRcf/aAAgBAQABPxABJBeFuBZBK8epgXgPzNaqZDc7uQnQUnD+4NK3fc//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;CompTIA award with Mrs. G&quot;
+        title=&quot;CompTIA award with Mrs. G&quot;
+        src=&quot;/static/f2c479b61f3de68388122b50a2b68408/a66f6/comptia.jpg&quot;
+        srcset=&quot;/static/f2c479b61f3de68388122b50a2b68408/b5655/comptia.jpg 110w,
+/static/f2c479b61f3de68388122b50a2b68408/0a632/comptia.jpg 220w,
+/static/f2c479b61f3de68388122b50a2b68408/a66f6/comptia.jpg 440w,
+/static/f2c479b61f3de68388122b50a2b68408/c507b/comptia.jpg 660w,
+/static/f2c479b61f3de68388122b50a2b68408/c6b1a/comptia.jpg 880w,
+/static/f2c479b61f3de68388122b50a2b68408/87e46/comptia.jpg 2816w&quot;
+        sizes=&quot;(max-width: 440px) 100vw, 440px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;In high school, I was fortunate enough to have access to interesting technology
+electives. One of the electives, taught by the fantastic Mandy Galante, prepped
+my classmates and me for the CompTIA Security+ exam which I passed at the end of
+the semester. Thanks to Mrs. Galante nominating me, I also received the CompTIA
+Merit Award from the CompTIA Educational Foundation.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Began internship at US Army CERDEC]]></title><description><![CDATA[In the summer of 2005, as an incoming high school senior, I started my
+internship at US Army Communications Electronics Research and…]]></description><link>https://johnathangilday.com/began-cerdec/</link><guid isPermaLink="false">https://johnathangilday.com/began-cerdec/</guid><pubDate>Sat, 01 Jan 2005 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 440px; [object Object]&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 76.36363636363637%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAEEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIQAxAAAAGtQINEzxv/xAAaEAADAAMBAAAAAAAAAAAAAAAAAQIDEhMR/9oACAEBAAEFAqyTI8kI2lrk9qh0c/D/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEv/aAAgBAwEBPwGUv//EABURAQEAAAAAAAAAAAAAAAAAAAAS/9oACAECAQE/AaW//8QAGxAAAgIDAQAAAAAAAAAAAAAAAAERIQISMYH/2gAIAQEABj8CtlslMnafC8jrP//EABkQAQEBAQEBAAAAAAAAAAAAAAERACFhof/aAAgBAQABPyFKT0dmeFwBwvmImEd7WUbPkwhPpv/aAAwDAQACAAMAAAAQ+y//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/EA//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPxCUP//EABwQAQACAgMBAAAAAAAAAAAAAAEAEUFRITFxkf/aAAgBAQABPxCjB4K7nMm5SLsAWW4NNyCp8lPC4ADzUICs0J//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;cerdec&quot;
+        title=&quot;cerdec&quot;
+        src=&quot;/static/f064cc412508ee1f1db10de5d9091703/a66f6/cerdec-range.jpg&quot;
+        srcset=&quot;/static/f064cc412508ee1f1db10de5d9091703/b5655/cerdec-range.jpg 110w,
+/static/f064cc412508ee1f1db10de5d9091703/0a632/cerdec-range.jpg 220w,
+/static/f064cc412508ee1f1db10de5d9091703/a66f6/cerdec-range.jpg 440w,
+/static/f064cc412508ee1f1db10de5d9091703/c507b/cerdec-range.jpg 660w,
+/static/f064cc412508ee1f1db10de5d9091703/c6b1a/cerdec-range.jpg 880w,
+/static/f064cc412508ee1f1db10de5d9091703/44d58/cerdec-range.jpg 1702w&quot;
+        sizes=&quot;(max-width: 440px) 100vw, 440px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;In the summer of 2005, as an incoming high school senior, I started my
+internship at US Army Communications Electronics Research and Development
+Engineering Center. I returned to CERDEC each break I had from school until I
+graduated college and accepted a full time position at CERDEC. My mixture of
+academic study and apprenticeship (and later employment) at CERDEC has been an
+invaluable experience.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Began my formal computer science training]]></title><description><![CDATA[In 2002, I began my formal computer science training as a freshman at Red Bank
+Regional High School. I enrolled in a program RBR HS called…]]></description><link>https://johnathangilday.com/began-career/</link><guid isPermaLink="false">https://johnathangilday.com/began-career/</guid><pubDate>Tue, 01 Jan 2002 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;In 2002, I began my formal computer science training as a freshman at Red Bank
+Regional High School. I enrolled in a program RBR HS called the Academy of
+Information Technology which put me on a track to IT and programming electives
+each semester until graduation. My graduation class was the last to be taught
+Pascal in our introduction to programming class (I believe it’s all Java now).&lt;/p&gt;</content:encoded></item></channel></rss>

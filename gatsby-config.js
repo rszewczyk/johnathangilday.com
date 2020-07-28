@@ -1,13 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: ``,
+    title: `Johnathan Gilday`,
+    blogTitle: `gilday / blog`,
     author: {
       name: `Johnathan Gilday`,
-      summary: `is a Baltimore based software engineer.`,
+      summary: `Baltimore, MD, USA based software developer.`,
     },
     description: `Personal landing page, blog, and resume.`,
     siteUrl: `https://johnathangilday.com/`,
     social: {
+      email: `me@johnathangilday.com`,
+      github: `gilday`,
       twitter: `jdgilday`,
     },
   },
@@ -33,6 +36,7 @@ module.exports = {
         name: `resume`,
       },
     },
+    `gatsby-remark-source-name`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {

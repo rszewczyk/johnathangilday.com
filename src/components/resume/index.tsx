@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import { css } from "@emotion/core"
 import { breakpoints, media } from "../../utils/responsive"
 
@@ -15,7 +16,12 @@ export default ({ timeline }) => (
         padding: "1rem 0",
       }}
     >
-      <h1>Johnathan Gilday</h1>
+      <h1>
+        <Link to="/">Johnathan Gilday</Link>
+        <p style={{ fontSize: typography.rhythm(0.6) }}>
+          Prinicpal Software Developer at Contrast Security building Contrast's interactive application security testing Java agent tool
+        </p>
+      </h1>
       <p>
         <a href="mailto:me@johnathangilday.com">me@johnathangilday.com</a>
       </p>

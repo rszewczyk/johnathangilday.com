@@ -2,15 +2,18 @@
 import React from "react"
 import { PageProps, Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
-import Layout from "../components/blog-layout"
+import Bio from "../components/blog/bio"
+import Layout from "../components/blog/layout"
+import { rhythm } from "../components/blog/typography"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
 
 type Data = {
   site: {
     siteMetadata: {
-      title: string
+      author: {
+        name: string
+      }
+      blogTitle: string
     }
   }
   allMarkdownRemark: {
@@ -31,11 +34,14 @@ type Data = {
 }
 
 const BlogIndex = ({ data, location }: PageProps<Data>) => {
-  const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout
+      location={location}
+      title={`gilday / blog`}
+      author={data.site.siteMetadata.author.name}
+    >
       <SEO title="All posts" />
       <Bio />
       {posts.map(({ node }) => {
@@ -74,10 +80,16 @@ export const pageQuery = graphql`
   query {
     site {
       siteMetadata {
-        title
+        author {
+          name
+        }
+        blogTitle
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { fields: { sourceName: { eq: "blog" } } }
+    ) {
       edges {
         node {
           excerpt

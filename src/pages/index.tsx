@@ -49,14 +49,17 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        social {
+          email
+          github
+          twitter
+        }
       }
     }
   }
 `
 
 const LandingPage = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata.title
-
   return (
     <div>
       <TypographyStyle typography={typography} />
@@ -75,8 +78,15 @@ const LandingPage = ({ data, location }) => {
             marginBottom: typography.rhythm(1.25),
           }}
         >
-          <h1>Johnathan Gilday</h1>
+          <h1>
+            {data.site.siteMetadata.title}
+            <p style={{ fontSize: typography.rhythm(0.6) }}>
+              Software Developer
+            </p>
+          </h1>
           <FlexList>
+            <Link to="/blog/">Blog</Link>
+            {/** TODO use trailing slash once redirect is set-up */}
             <Link to="/resume">Resume</Link>
           </FlexList>
         </header>
@@ -84,7 +94,7 @@ const LandingPage = ({ data, location }) => {
           <Section>
             <SectionText>
               <h2>
-                Application security tools made daily in Baltimore, MD at{" "}
+                Application security tools made daily in Baltimore, MD, USA at{" "}
                 <a href="https://contrastsecurity.com/">Contrast Security</a>
               </h2>
               <UndecoratedList>
@@ -142,17 +152,20 @@ const LandingPage = ({ data, location }) => {
           </Section>
           <footer>
             <FlexList>
-              <SocialLink href="https://github.com/gilday" aria-label="GitHub">
+              <SocialLink
+                href={`https://github.com/${data.site.siteMetadata.social.github}`}
+                aria-label="GitHub"
+              >
                 <GitHub />
               </SocialLink>
               <SocialLink
-                href="https://twitter.com/jdgilday"
+                href={`https://twitter.com/${data.site.siteMetadata.social.twitter}`}
                 aria-label="Twitter"
               >
                 <Twitter />
               </SocialLink>
               <SocialLink
-                href="mailto:me@johnathangilday.com"
+                href={`mailto:${data.site.siteMetadata.social.email}`}
                 aria-label="E-Mail"
               >
                 <Envelope />

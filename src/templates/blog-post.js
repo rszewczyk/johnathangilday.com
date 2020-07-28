@@ -1,18 +1,19 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
-import Layout from "../components/blog-layout"
+import Bio from "../components/blog/bio"
+import Layout from "../components/blog/layout"
+import { rhythm, scale } from "../components/blog/typography"
 import SEO from "../components/seo"
-import { rhythm, scale } from "../utils/typography"
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
-  const siteTitle = data.site.siteMetadata.title
+  const blogTitle = data.site.siteMetadata.blogTitle
+  const author = data.site.siteMetadata.author.name
   const { previous, next } = pageContext
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout location={location} title={blogTitle} author={author}>
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
@@ -84,7 +85,10 @@ export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
     site {
       siteMetadata {
-        title
+        author {
+          name
+        }
+        blogTitle
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {

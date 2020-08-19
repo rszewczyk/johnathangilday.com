@@ -11,6 +11,7 @@ import Container from "../components/container"
 import SEO from "../components/seo"
 import Envelope from "../components/envelope"
 import GitHub from "../components/github-logo"
+import StackOverflow from "../components/stack-overflow"
 import Twitter from "../components/twitter"
 
 const fonts = [
@@ -158,6 +159,12 @@ const LandingPage = ({ data, location }) => {
                 aria-label="GitHub"
               >
                 <GitHub />
+              </SocialLink>
+              <SocialLink
+                href={`https://stackoverflow.com/users/501368/jdgilday/`}
+                aria-label="Stack Overflow"
+              >
+                <StackOverflow />
               </SocialLink>
               <SocialLink
                 href={`https://twitter.com/${data.site.siteMetadata.social.twitter}`}

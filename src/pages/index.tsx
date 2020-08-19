@@ -40,6 +40,7 @@ const typography = new Typography({
       textTransform: "uppercase",
       textAlign: "center",
       lineHeight: 1.6,
+      letterSpacing: '2px'
     },
   }),
 })
@@ -80,7 +81,7 @@ const LandingPage = ({ data, location }) => {
         >
           <h1>
             {data.site.siteMetadata.title}
-            <p style={{ fontSize: typography.rhythm(0.6) }}>
+            <p style={{ fontSize: typography.rhythm(0.8) }}>
               Software Developer
             </p>
           </h1>

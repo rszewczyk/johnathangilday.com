@@ -7,6 +7,7 @@ import Container from "../container"
 import Era from "./era"
 import Event from "./event"
 import Timeline from "./timeline"
+import typography from "./typography"
 
 export default ({ timeline }) => (
   <Container width={breakpoints.large}>
@@ -18,8 +19,8 @@ export default ({ timeline }) => (
     >
       <h1>
         <Link to="/">Johnathan Gilday</Link>
-        <p style={{ fontSize: typography.rhythm(0.6) }}>
-          Prinicpal Software Developer at Contrast Security building Contrast's interactive application security testing Java agent tool
+        <p style={{ fontSize: typography.rhythm(0.7) }}>
+          Prinicpal Software Developer at Contrast Security{" "}
         </p>
       </h1>
       <p>

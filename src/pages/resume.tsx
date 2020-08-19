@@ -1,24 +1,12 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import { css } from "@emotion/core"
-import { TypographyStyle, GoogleFont } from "react-typography"
-import Typography from "typography"
 import { Link, graphql } from "gatsby"
+import { TypographyStyle } from "react-typography"
 
 import SEO from "../components/seo"
 import Resume from "../components/resume"
-
-const fonts = ["Helvetica Neue", "Helveticaa", "Arial", "sans-serif"]
-const typography = new Typography({
-  baseFontSize: 14,
-  headerFontFamily: fonts,
-  bodyFontFamily: fonts,
-  overrideStyles: ({ adjustFontSizeTo, rhythm }, options, styles) => ({
-    "h1,h2,h3,h4,h5": {
-      lineHeight: "40px",
-    },
-  }),
-})
+import typography from "../components/resume/typography"
 
 export const pageQuery = graphql`
   query {

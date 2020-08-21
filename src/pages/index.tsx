@@ -41,7 +41,7 @@ const typography = new Typography({
       textTransform: "uppercase",
       textAlign: "center",
       lineHeight: 1.6,
-      letterSpacing: '2px'
+      letterSpacing: "2px",
     },
   }),
 })

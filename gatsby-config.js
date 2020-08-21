@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Johnathan Gilday`,
-    blogTitle: `gilday / blog`,
+    blogTitle: `/ gilday / blog`,
     author: {
       name: `Johnathan Gilday`,
       summary: `Baltimore, MD, USA based software developer.`,

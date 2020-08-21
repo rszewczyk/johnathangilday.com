@@ -39,7 +39,7 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
   return (
     <Layout
       location={location}
-      title={`gilday / blog`}
+      title={data.site.siteMetadata.blogTitle}
       author={data.site.siteMetadata.author.name}
     >
       <SEO title="All posts" />

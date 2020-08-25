@@ -8,9 +8,18 @@ const NotFoundPage = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout
+      location={location}
+      title={siteTitle}
+      author={data.site.siteMetadata.author.name}
+    >
       <SEO title="404: Not Found" />
-      <h1>Not Found 🤷‍♂️</h1>
+      <h1>
+        <span id="not-found-heading">Page Not Found</span>
+        <span role="img" aria-labelledby="not-found-heading">
+          🤷‍♂️
+        </span>
+      </h1>
     </Layout>
   )
 }
@@ -21,6 +30,9 @@ export const pageQuery = graphql`
   query {
     site {
       siteMetadata {
+        author {
+          name
+        }
         title
       }
     }

@@ -73,7 +73,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-emotion`,
-    `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-postcss`,
       options: {

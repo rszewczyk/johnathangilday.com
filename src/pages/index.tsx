@@ -96,7 +96,7 @@ const LandingPage = ({ data, location }) => {
           <Section>
             <SectionText>
               <h2>
-                Application security tools made daily in Baltimore, MD, USA at{" "}
+                Application security tools made daily in Baltimore, MD at{" "}
                 <a href="https://contrastsecurity.com/">Contrast Security</a>
               </h2>
               <UndecoratedList>
@@ -132,21 +132,32 @@ const LandingPage = ({ data, location }) => {
                 <li>
                   JVM based services{" "}
                   <small>
-                    (Scala, Java, Akka, JAX-RS, Jackson, JUnit, Mockito, Guice,
-                    Spring)
+                    (Spring, Jersey, OK HTTP, Jackson, Guice, Scala, Akka)
+                  </small>
+                </li>
+                <li>
+                  Enterprise Java{" "}
+                  <small>
+                    (JAX-RS, JPA, JDBC, JAX-WS, JAXP, JAXB, Servlets, OSGi)
                   </small>
                 </li>
                 <li>
                   Data Persistence Technologies{" "}
-                  <small>(Berkeley DB, JPA, MongoDB)</small>
+                  <small>(Berkeley DB, MongoDB, RDBMS)</small>
                 </li>
                 <li>
                   Automation{" "}
-                  <small>(Ansible, bash, Maven, git, CI/CD, Docker)</small>
+                  <small>
+                    (Gradle, Maven, Bash, git, CI/CD, JUnit Jupiter, Vagrant,
+                    Packer)
+                  </small>
                 </li>
                 <li>
                   Web{" "}
-                  <small>(Angular, webpack, LESS, Bootstrap, Jasemine)</small>
+                  <small>(Angular, webpack, Gatsby, Bootstrap, Jasemine)</small>
+                </li>
+                <li>
+                  Cloud <small>(AWS, OpenStack, Docker)</small>
                 </li>
                 <li>Android mobile apps</li>
               </ul>

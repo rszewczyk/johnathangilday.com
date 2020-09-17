@@ -89,7 +89,7 @@ const LandingPage = ({ data, location }) => {
           <FlexList>
             <Link to="/blog/">Blog</Link>
             {/** TODO use trailing slash once redirect is set-up */}
-            <Link to="/resume">Resume</Link>
+            <Link to="/resume/">Resume</Link>
           </FlexList>
         </header>
         <main>

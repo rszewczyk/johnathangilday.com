@@ -14,7 +14,7 @@ export default ({ timeline }) => (
     <header
       css={{
         textAlign: "center",
-        padding: "1rem 0",
+        padding: "1rem 0"
       }}
     >
       <h1>
@@ -27,9 +27,8 @@ export default ({ timeline }) => (
         <a href="mailto:me@johnathangilday.com">me@johnathangilday.com</a>
       </p>
       <p>
-        Boring, standard, one-page PDF resume available{" "}
         <a href="https://drive.google.com/open?id=0B9eH1qcLQxi-eHZURnJOQ2xHQnc">
-          here
+          Boring, standard PDF resume{" "}
         </a>
       </p>
     </header>

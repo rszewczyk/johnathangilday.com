@@ -33,7 +33,7 @@ packages and manage multiple versions of Java with built-in shell tools.
    ```
 1. Install the JDK versions you need e.g.
    ```sh
-   brew cask install adoptopenjdk11
+   brew install --cask adoptopenjdk11
    ```
 1. Configure `JAVA_HOME` in your shell with the default version of Java. This
    guide assumes you use ZSH because that is the default shell since macOS
@@ -70,7 +70,7 @@ jdk() {
     version=$1
     export JAVA_HOME=$(/usr/libexec/java_home -v"$version");
     java -version
- }
+}
 ```
 
 ### Automatically Switching Java Versions

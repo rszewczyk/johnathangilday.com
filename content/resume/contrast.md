@@ -6,10 +6,11 @@ title: Hello, Contrast Security
 
 ![Contrast Security's office at Natty Boh Tower in Baltimore](./boh-tower.jpg)
 
-In March 2017 I left Next Century to join [Contrast
-Security](https://www.contrastsecurity.com/): an application security start-up
-in Baltimore. Contrast's product takes a unique approach to detecting and
-preventing vulnerabilities by instrumenting customers' applications at runtime.
+In March 2017 I left Next Century to join
+[Contrast Security](https://www.contrastsecurity.com/): an application security
+start-up in Baltimore. Contrast's product takes a unique approach to detecting
+and preventing vulnerabilities by instrumenting customers' applications at
+runtime.
 
 In my first role at Contrast, I worked on building our backend product. I built
 cloud native data analytics to support business intelligence and marketing

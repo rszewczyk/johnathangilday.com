@@ -9,10 +9,10 @@ title: "Contrast Security: Java Agent Developer"
 As often happens at start-ups, my role at Contrast Security changed to meet the
 company's new needs. In February 2018, I stepped away from backend service
 development and took on the role of Principal Engineer for Contrast's flagship
-product: the [Contrast Java
-agent](https://docs.contrastsecurity.com/en/java.html). I helped grow the size
-of the Java agent team by 4x in 3 years by providing mentorship, techincal
-leadership, and building consensus for a long-term vision.
+product: the
+[Contrast Java agent](https://docs.contrastsecurity.com/en/java.html). I helped
+grow the size of the Java agent team by 4x in 3 years by providing mentorship,
+techincal leadership, and building consensus for a long-term vision.
 
 Developing a Java agent is a challenging problem. Developing an agent that
 instruments low-level Java APIs for secure data flow analysis, as Contrast does,

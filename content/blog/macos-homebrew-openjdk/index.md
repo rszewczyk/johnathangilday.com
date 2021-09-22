@@ -24,26 +24,26 @@ packages and manage multiple versions of Java with built-in shell tools.
    environment.
 
 1. [Add the AdoptOpenJDK HomeBrew Tap](https://github.com/AdoptOpenJDK/homebrew-openjdk)
-   ```sh
+   ```shell
    brew tap AdoptOpenJDK/openjdk
    ```
 1. Find the AdoptOpenJDK HomeBrew packages for the versions of Java you need
-   ```sh
+   ```shell
    brew search adoptopenjdk
    ```
 1. Install the JDK versions you need e.g.
-   ```sh
+   ```shell
    brew install --cask adoptopenjdk11
    ```
 1. Configure `JAVA_HOME` in your shell with the default version of Java. This
    guide assumes you use ZSH because that is the default shell since macOS
    Catalina
-   ```sh
+   ```shell
     export JAVA_HOME=$(/usr/libexec/java_home -v 11)
     path+=$JAVA_HOME/bin
    ```
 1. Reload the shell configuration confirm that Java works
-   ```sh
+   ```shell
    . ~/.zshrc
    java -version
    ```
@@ -54,7 +54,7 @@ Users can install multiple JDKs by installing multiple AdoptOpenJDK HomeBrew
 packages. The macOS program `/usr/libexec/java_home` helps users configure their
 `JAVA_HOME` environment variable.
 
-```sh
+```shell
 # switches to JDK 14
 export JAVA_HOME=$(/usr/libexec/java_home -v 14)
 ```
@@ -65,7 +65,7 @@ automatically update to reflect the changes to the `JAVA_HOME` variable.
 This command may be too verbose to type every time, so the
 [HomeBrew AdoptOpenJDK Tap README recommends adding this function to your shell configuration to succinctly switch your JDK version](https://github.com/AdoptOpenJDK/homebrew-openjdk):
 
-```sh
+```shell
 jdk() {
     version=$1
     export JAVA_HOME=$(/usr/libexec/java_home -v"$version");
@@ -90,7 +90,7 @@ only because this is the same name that the analogous jenv feature uses, and
 using a common name helps share this configuration with any jenv users that
 contribute to your project.
 
-```sh
+```shell
 echo 1.8 > .java-version
 ```
 
@@ -98,7 +98,7 @@ Next, we need to add a hook to our ZSH configuration that will look for and act
 on this file whenever the shell changes directories. Add the following to
 `$HOME/.zshrc`.
 
-```sh
+```shell
 # automatic java_home switch when .java-version detected
 function chpwd() {
   if [[ -f $PWD/.java-version ]]; then
@@ -110,7 +110,7 @@ function chpwd() {
 
 Lastly, reload your ZSH configuration and test it out
 
-```sh
+```shell
 # create two test project directories
 mkdir java-8-project java-11-project
 

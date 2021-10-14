@@ -4,16 +4,19 @@ date: "2020-09-07"
 description: >
   Developers on macOS may feel more lost than usual when considering their
   options for installing Java. In my experience, using Homebrew to install
-  AdoptOpenJDK packages is the best general solution for installing Java on
+  Eclipse Temurin packages is the best general solution for installing Java on
   macOS.
 ---
+
+**Update 2021-10-13: AdoptOpenJDK has migrated to the Eclipse Foundation and is
+now Temurin. This post has been updated to reflect this migration.**
 
 Changes to how Java is released and licensed may have macOS users feeling more
 lost than usual when considering their options for installing the JDK. Given the
 licensing changes Oracle made to Java after version 1.8, using Oracle's
 installer may not always be an option. With Java's new six-month release cycle,
 developers are more likely to need a handful of different versions of the JDK
-installed. In this post, I explain how I use Homebrew to install AdoptOpenJDK
+installed. In this post, I explain how I use Homebrew to install Eclipse Temurin
 packages and manage multiple versions of Java with built-in shell tools.
 
 ## Installing Java
@@ -23,17 +26,17 @@ packages and manage multiple versions of Java with built-in shell tools.
    Execute `java -version` to double-check that Java is truly gone from the
    environment.
 
-1. [Add the AdoptOpenJDK HomeBrew Tap](https://github.com/AdoptOpenJDK/homebrew-openjdk)
+1. Add the Cask Versions Tap. This is necessary to install previous releases.
    ```shell
-   brew tap AdoptOpenJDK/openjdk
+   brew tap homebrew/cask-versions
    ```
-1. Find the AdoptOpenJDK HomeBrew packages for the versions of Java you need
+1. Find the Eclipse Temurin HomeBrew packages for the versions of Java you need
    ```shell
-   brew search adoptopenjdk
+   brew search temurin
    ```
 1. Install the JDK versions you need e.g.
    ```shell
-   brew install --cask adoptopenjdk11
+   brew install --cask temurin11
    ```
 1. Configure `JAVA_HOME` in your shell with the default version of Java. This
    guide assumes you use ZSH because that is the default shell since macOS
@@ -50,7 +53,7 @@ packages and manage multiple versions of Java with built-in shell tools.
 
 ## Switching Java Versions
 
-Users can install multiple JDKs by installing multiple AdoptOpenJDK HomeBrew
+Users can install multiple JDKs by installing multiple Temurin HomeBrew
 packages. The macOS program `/usr/libexec/java_home` helps users configure their
 `JAVA_HOME` environment variable.
 
@@ -143,7 +146,7 @@ subscription to use it. For example, After April 16, 2019, developers can no
 longer use Oracle's Java 1.8 release for commercial purposes without buying a
 subscription.
 
-## Why AdoptOpenJDK?
+## Why Eclipse Temurin?
 
 There are a lot of OpenJDK distributions to choose from. The excellent article
 [Is Java Still Free](https://medium.com/@javachampions/java-is-still-free-2-0-0-6b9aa8d6d244)
@@ -158,16 +161,16 @@ to remember are:
 
 The average Java developer wants an OpenJDK distribution that is simple, free,
 has no strings attached, and is easy to install. OpenJDK distributions from the
-AdopOpenJDK project fit these criteria well. AdoptOpenJDK is part of the Eclipse
-Foundation and makes OpenJDK distributions freely available. They do not offer
-commercial support, so they are not trying to up-sell developers. Their mission
-is
+Eclipse Temurin project fit these criteria well. Temurin, formerly AdoptOpenJDK,
+is part of the Eclipse Foundation and makes OpenJDK distributions freely
+available. They do not offer commercial support, so they are not trying to
+up-sell developers. Their mission is
 
 > Providing the Java community with rock-solid runtimes and associated tools
 > that can be used free of charge, without usage restrictions on a wide range of
 > platforms.
 
-Sounds good to me 😁. AdoptOpenJDK is readily available in Docker images on
-[Docker Hub](https://hub.docker.com/_/adoptopenjdk), in
+Sounds good to me 😁. Temurin is readily available in Docker images on
+[Docker Hub](https://hub.docker.com/_/eclipse-temurin), in
 [HomeBrew packages](https://github.com/AdoptOpenJDK/homebrew-openjdk), and in
-archives on [adoptopenjdk.net](https://adoptopenjdk.net/releases.html).
+archives on [adoptium.net](https://adoptium.net).

@@ -27,8 +27,8 @@ export default ({ timeline }) => (
         <a href="mailto:me@johnathangilday.com">me@johnathangilday.com</a>
       </p>
       <p>
-        <a href="https://drive.google.com/open?id=0B9eH1qcLQxi-eHZURnJOQ2xHQnc">
-          Boring, standard PDF resume{" "}
+        <a href="https://drive.google.com/file/d/0B9eH1qcLQxi-eHZURnJOQ2xHQnc/view?usp=sharing&resourcekey=0-8YOMhHnHoa2G6jsGPjcv3w">
+          PDF resume{" "}
         </a>
       </p>
     </header>

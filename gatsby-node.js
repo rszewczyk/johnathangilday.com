@@ -56,15 +56,20 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 
   // Create blog post slugs
-  if (
-    node.internal.type === `MarkdownRemark` &&
-    node.fields.sourceName === `blog`
-  ) {
-    const path = createFilePath({ node, getNode, basePath: "content" })
+  if (node.internal.type === `MarkdownRemark`) {
+    const fileNode = getNode(node.parent)
     createNodeField({
-      name: `slug`,
       node,
-      value: `/blog${path}`,
+      name: "sourceName",
+      value: fileNode.sourceInstanceName,
     })
+    if (node.fields.sourceName === `blog`) {
+      const path = createFilePath({ node, getNode, basePath: "content" })
+      createNodeField({
+        name: `slug`,
+        node,
+        value: `/blog${path}`,
+      })
+    }
   }
 }

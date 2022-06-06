@@ -1,6 +1,6 @@
 import React from "react"
 import { Helmet } from "react-helmet"
-import { css } from "@emotion/core"
+import { css } from "@emotion/react"
 import { TypographyStyle, GoogleFont } from "react-typography"
 import Typography from "typography"
 import { Link, graphql } from "gatsby"

@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import { css } from "@emotion/core"
+import { css } from "@emotion/react"
 import { breakpoints, media } from "../../utils/responsive"
 
 import Container from "../container"
@@ -27,9 +27,7 @@ export default ({ timeline }) => (
         <a href="mailto:me@johnathangilday.com">me@johnathangilday.com</a>
       </p>
       <p>
-        <a href={'/johnathan-gilday-resume.pdf'}>
-          PDF resume{" "}
-        </a>
+        <a href={"/johnathan-gilday-resume.pdf"}>PDF resume </a>
       </p>
     </header>
     <Timeline>

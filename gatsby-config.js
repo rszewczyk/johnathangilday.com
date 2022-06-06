@@ -36,7 +36,6 @@ module.exports = {
         name: `resume`,
       },
     },
-    `gatsby-remark-source-name`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {

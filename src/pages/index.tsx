@@ -96,7 +96,7 @@ const LandingPage = ({ data }) => {
           <Section>
             <SectionText>
               <h2>
-                Application security tools made daily in Baltimore, MD at{" "}
+                Application security tools made daily in Red Bank, NJ at{" "}
                 <a href="https://contrastsecurity.com/">Contrast Security</a>
               </h2>
               <UndecoratedList>

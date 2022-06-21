@@ -11,6 +11,7 @@ import Container from "../components/container"
 import SEO from "../components/seo"
 import Envelope from "../components/envelope"
 import GitHub from "../components/github-logo"
+import LinkedIn from "../components/linked-in"
 import StackOverflow from "../components/stack-overflow"
 import Twitter from "../components/twitter"
 
@@ -54,6 +55,7 @@ export const pageQuery = graphql`
         social {
           email
           github
+          linkedIn
           twitter
         }
       }
@@ -170,6 +172,12 @@ const LandingPage = ({ data }) => {
                 aria-label="GitHub"
               >
                 <GitHub />
+              </SocialLink>
+              <SocialLink
+                href={`https://linkedin.com/in/${data.site.siteMetadata.social.linkedIn}`}
+                aria-label="LinkedIn"
+              >
+                <LinkedIn />
               </SocialLink>
               <SocialLink
                 href={`https://stackoverflow.com/users/501368/jdgilday/`}

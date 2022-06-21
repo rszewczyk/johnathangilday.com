@@ -11,6 +11,7 @@ module.exports = {
     social: {
       email: `me@johnathangilday.com`,
       github: `gilday`,
+      linkedIn: 'johnathan-gilday',
       twitter: `jdgilday`,
     },
   },

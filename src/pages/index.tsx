@@ -33,7 +33,7 @@ const typography = new Typography({
       styles: ["400"],
     },
   ],
-  overrideStyles: ({ adjustFontSizeTo, rhythm }, options, styles) => ({
+  overrideStyles: () => ({
     a: {
       color: chalk,
     },
@@ -61,7 +61,7 @@ export const pageQuery = graphql`
   }
 `
 
-const LandingPage = ({ data, location }) => {
+const LandingPage = ({ data }) => {
   return (
     <div>
       <TypographyStyle typography={typography} />

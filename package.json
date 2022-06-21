@@ -8,8 +8,8 @@
     "url": "https://github.com/gilday/johnathangilday.com/issues"
   },
   "dependencies": {
-    "@emotion/react": "^11.9.0",
-    "@emotion/styled": "^11.8.1",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
     "gatsby": "^4.16.0",
     "gatsby-plugin-emotion": "^7.16.0",
     "gatsby-plugin-google-analytics": "^4.16.0",

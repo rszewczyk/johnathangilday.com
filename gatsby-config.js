@@ -4,7 +4,7 @@ module.exports = {
     blogTitle: `/ gilday / blog`,
     author: {
       name: `Johnathan Gilday`,
-      summary: `Baltimore, MD, USA based software developer.`,
+      summary: `Red Bank, NJ, USA based software developer.`,
     },
     description: `Personal landing page, blog, and resume.`,
     siteUrl: `https://johnathangilday.com/`,

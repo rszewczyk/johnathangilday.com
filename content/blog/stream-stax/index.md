@@ -4,10 +4,10 @@ date: "2022-12-15"
 description: >
   On one hand, Java developers love to work with streams of data using the
   `java.util.stream` package, because it is easy to apply transformations,
-  filtering, and aggregation. On the other hand, the Streaming API for XML (StAX)
-  makes reading XML streamwise easy, but there are no easy ways to filter,
-  transform, and aggregate the data. How can a Java developer connect these two
-  APIs to use the best of both?
+  filtering, and aggregation. On the other hand, the Streaming API for XML
+  (StAX) makes reading XML streamwise easy, but there are no easy ways to
+  filter, transform, and aggregate the data. How can a Java developer connect
+  these two APIs to use the best of both?
 ---
 
 I recently had to process large XML documents in Java, so I reached for Java's

@@ -11,7 +11,7 @@ module.exports = {
     social: {
       email: `me@johnathangilday.com`,
       github: `gilday`,
-      linkedIn: 'johnathan-gilday',
+      linkedIn: "johnathan-gilday",
       twitter: `jdgilday`,
     },
   },
@@ -66,12 +66,6 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: `UA-28952450-1`,
-      },
-    },
     `gatsby-plugin-emotion`,
     {
       resolve: `gatsby-plugin-postcss`,

@@ -5303,15 +5303,6 @@ gatsby-plugin-emotion@^8.5.0:
     "@babel/runtime" "^7.20.7"
     "@emotion/babel-preset-css-prop" "^11.10.0"
 
-gatsby-plugin-google-analytics@^5.5.0:
-  version "5.5.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-5.5.0.tgz#1784230ec79c7fb531a25b2f5f96a4200e6bad4c"
-  integrity sha512-/OfFZd7ciXkft6Pq6J2lCMTewuhNfQd/2cKWqLiWSD0okw6OXH8swJ/VOk6yIDW8i3EULvlsbofxIVZD0Loeig==
-  dependencies:
-    "@babel/runtime" "^7.20.7"
-    minimatch "^3.1.2"
-    web-vitals "^1.1.2"
-
 gatsby-plugin-image@^3.5.0:
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-image/-/gatsby-plugin-image-3.5.0.tgz#ff25e4e169951503bace8ec4758d3cd2dedb6445"
@@ -10543,11 +10534,6 @@ web-namespaces@^1.0.0:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/web-namespaces/-/web-namespaces-1.1.4.tgz#bc98a3de60dadd7faefc403d1076d529f5e030ec"
   integrity sha512-wYxSGajtmoP4WxfejAPIr4l0fVh+jeMXZb08wNc0tMg6xsfZXj3cECqIK0G7ZAqUq0PP8WlMDtaOGVBTAWztNw==
-
-web-vitals@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/web-vitals/-/web-vitals-1.1.2.tgz#06535308168986096239aa84716e68b4c6ae6d1c"
-  integrity sha512-PFMKIY+bRSXlMxVAQ+m2aw9c/ioUYfDgrYot0YUa+/xa0sakubWhSDyxAKwzymvXVdF4CZI71g06W+mqhzu6ig==
 
 webidl-conversions@^3.0.0:
   version "3.0.1"

@@ -65,6 +65,18 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: ["G-E3KXE45ML7"],
+        gtagConfig: {
+          anonymize_ips: true,
+        },
+        pluginConfig: {
+          respectDNT: true,
+        },
+      },
+    },
     `gatsby-plugin-sharp`,
     `gatsby-plugin-emotion`,
     {

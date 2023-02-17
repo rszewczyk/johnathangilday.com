@@ -12,15 +12,15 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-          cache: yarn
+          cache: npm
       - uses: fregante/setup-git-user@v1
       - name: Install Dependencies
-        run: yarn
+        run: npm install
       - name: Build Site
-        run: yarn run build
+        run: npm run build
       - name: Publish Site
         run: |
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-          yarn run deploy --silent
+          npm run deploy --silent
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

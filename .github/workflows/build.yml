@@ -10,8 +10,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-          cache: yarn
+          cache: npm
       - name: Install Dependencies
-        run: yarn
+        run: npm install
       - name: Build Site
-        run: yarn run build
+        run: npm run build

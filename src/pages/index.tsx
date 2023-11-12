@@ -186,12 +186,6 @@ const LandingPage = ({ data }) => {
                 <StackOverflow />
               </SocialLink>
               <SocialLink
-                href={`https://twitter.com/${data.site.siteMetadata.social.twitter}`}
-                aria-label="Twitter"
-              >
-                <Twitter />
-              </SocialLink>
-              <SocialLink
                 href={`mailto:${data.site.siteMetadata.social.email}`}
                 aria-label="E-Mail"
               >

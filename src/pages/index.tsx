@@ -98,8 +98,8 @@ const LandingPage = ({ data }) => {
           <Section>
             <SectionText>
               <h2>
-                Application security tools made daily in Red Bank, NJ at{" "}
-                <a href="https://contrastsecurity.com/">Contrast Security</a>
+                Automated code fixes made daily in Red Bank, NJ at{" "}
+                <a href="https://pixee.ai/">Pixee</a>.
               </h2>
               <UndecoratedList>
                 <li>

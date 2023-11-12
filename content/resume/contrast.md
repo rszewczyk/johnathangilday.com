@@ -1,7 +1,7 @@
 ---
-era: "2017 - Now"
+era: "2017 - 2021"
 date: "2017-03"
-title: Hello, Contrast Security
+title: Contrast Security
 ---
 
 ![Contrast Security's office at Natty Boh Tower in Baltimore](./boh-tower.jpg)

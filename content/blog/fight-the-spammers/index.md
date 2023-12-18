@@ -50,6 +50,17 @@ Here's the template I use:
 <dd>One of your users is sending unsolicited spam with no opt-out from address &lt;spammer&gt;@gmail.com. They're tracking their spam campaign using YAMM tracker &lt;URL-to-tracker&gt;. I’ve attached the email.</dd>
 </dl>
 
+## Reporting Abuse to Google Docs, Forms, Drive
+
+Spammers increasingly use Google applications to phishing emails. The emails
+come from Google, so they look relatively legitimate compared to campaigns sent
+from their random email addresses. Google has a separate way to report abuse
+with these applications.
+
+Unfortunately, you must actually open the malicious document to report it.
+
+See https://support.google.com/docs/answer/2463296?hl=en
+
 ## Summary
 
 Of course, spammers don't care if they get their throwaway email address

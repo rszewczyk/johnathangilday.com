@@ -13,7 +13,6 @@ import Envelope from "../components/envelope"
 import GitHub from "../components/github-logo"
 import LinkedIn from "../components/linked-in"
 import StackOverflow from "../components/stack-overflow"
-import Twitter from "../components/twitter"
 
 const fonts = [
   "Schoolbell",
@@ -72,6 +71,7 @@ const LandingPage = ({ data }) => {
       <Helmet>
         <style type="text/css">{`
           body {
+            /** Photo by <a href="https://unsplash.com/@resourceboy?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Resource Boy</a> on <a href="https://unsplash.com/photos/a-black-and-white-photo-of-a-blackboard-B2ploCySfxU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> */
             background: repeat url("img/chalk.jpg");
         `}</style>
       </Helmet>

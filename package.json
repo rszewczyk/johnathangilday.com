@@ -9,7 +9,6 @@
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",
-    "@emotion/styled": "^11.10.5",
     "gatsby": "^5.13.6",
     "gatsby-link": "^5.5.0",
     "gatsby-plugin-emotion": "^8.5.0",
@@ -34,7 +33,6 @@
     "react-helmet": "^6.1.0",
     "react-typography": "^0.16.23",
     "typeface-merriweather": "1.1.13",
-    "typeface-montserrat": "1.1.13",
     "typography": "^0.16.21",
     "typography-theme-sutro": "^0.16.19"
   },

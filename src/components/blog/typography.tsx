@@ -7,8 +7,15 @@ theme.overrideThemeStyles = ({ rhythm }, options, styles) => {
       backgroundColor: "#121212",
       color: "#ffffff",
     },
+    a: {
+      color: "#06ff68",
+    },
     "a.gatsby-resp-image-link": {
       boxShadow: `none`,
+    },
+    blockquote: {
+      borderLeftColor: `rgba(6, 255, 104)`,
+      color: `rgba(6, 255, 104, 0.64)`,
     },
   }
 

@@ -145,7 +145,7 @@ subscription.
 ## Why Eclipse Temurin?
 
 There are a lot of OpenJDK distributions to choose from. The excellent article
-[Is Java Still Free](https://medium.com/@javachampions/java-is-still-free-3-0-0-ocrt-2021-bca75c88d23b)
+[Java is Still Free](https://medium.com/@javachampions/java-is-still-free-3-0-0-ocrt-2021-bca75c88d23b)
 is the best resource for navigating these choices. The two most important things
 to remember are:
 

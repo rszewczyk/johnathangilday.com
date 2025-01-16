@@ -26,10 +26,6 @@ packages and manage multiple versions of Java with built-in shell tools.
    Execute `java -version` to double-check that Java is truly gone from the
    environment.
 
-1. Add the Cask Versions Tap. This is necessary to install previous releases.
-   ```shell
-   brew tap homebrew/cask-versions
-   ```
 1. Find the Eclipse Temurin HomeBrew packages for the versions of Java you need
    ```shell
    brew search temurin
@@ -149,7 +145,7 @@ subscription.
 ## Why Eclipse Temurin?
 
 There are a lot of OpenJDK distributions to choose from. The excellent article
-[Is Java Still Free](https://medium.com/@javachampions/java-is-still-free-2-0-0-6b9aa8d6d244)
+[Is Java Still Free](https://medium.com/@javachampions/java-is-still-free-3-0-0-ocrt-2021-bca75c88d23b)
 is the best resource for navigating these choices. The two most important things
 to remember are:
 
@@ -170,7 +166,11 @@ up-sell developers. Their mission is
 > that can be used free of charge, without usage restrictions on a wide range of
 > platforms.
 
+While they do not offer support, Temurin is one of a handful of OpenJDK
+distributions that passes the Java Technology Compatibility Kit and provides
+free updates (including security) for releases as far back as Java 8.
+
 Sounds good to me 😁. Temurin is readily available in Docker images on
 [Docker Hub](https://hub.docker.com/_/eclipse-temurin), in
-[HomeBrew packages](https://github.com/AdoptOpenJDK/homebrew-openjdk), and in
-archives on [adoptium.net](https://adoptium.net).
+[HomeBrew packages](https://formulae.brew.sh/cask/temurin), and in archives on
+[adoptium.net](https://adoptium.net).
